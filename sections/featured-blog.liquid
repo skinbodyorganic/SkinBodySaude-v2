@@ -1,0 +1,185 @@
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-featured-blog.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+.section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+@media screen and (max-width: 991px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+    }
+}
+{%- endstyle -%}
+<div class="blog section-{{ section.id }}-padding">
+    <div class="page-width">
+        <div class="wbbloginr">
+      {%- if section.settings.m_title != blank -%}<h2 class="heading text-left {{ section.settings.heading_size }}"><span>{{ section.settings.m_title }}</span></h2>{%- endif -%}
+            <div class="rless">
+              <div class="wbslickblog">
+                {%- unless section.settings.blog == blank or section.settings.blog.articles.size == 0 -%}
+                    {%- for article in section.settings.blog.articles -%}
+                        <div class="cless">
+                            {% render 'article-card', blog: section.settings.blog, image_height: section.settings.image_height, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_cmment: section.settings.show_cmment, show_desc: section.settings.show_desc %}
+                        </div>
+                    {%- endfor -%}
+                {%- else -%}
+                    {% for i in (1..4) %}
+                        <div class="cless">
+                            <article class="article-card">
+                                <div class="wbblogimg">
+                                    <div class="dummysvg">{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                                </div>
+                                <div class="wbblogimgdesc">
+                                    <h3><a href="#">Example blog post {{ i }}</a></h3>
+                                    <div class="wbblogdate">Oct 22, 2022</div>
+                                </div>
+                            </article>
+                        </div>
+                    {% endfor %}
+                {%- endunless -%}
+              </div>
+            </div>
+        {%- if section.settings.show_view_all -%}
+            <div class="blog__view-all center">
+                <a href="{{ section.settings.blog.url }}" class="button button--primary"><span>{{ 'sections.featured_blog.view_all' | t }}</span>{% render 'icon-arrow' %}</a>
+            </div>
+        {%- endif -%}
+      </div>
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "t:sections.featured-blog.name",
+    "tag": "section",
+    "class": "spaced-section spaced-section--full-width",
+    "settings": [
+      {
+        "type": "text",
+        "id": "m_title",
+        "label": "Heading",
+        "default": "latest blog"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          },
+          {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          },
+          {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h0",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "t:sections.featured-blog.settings.blog.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_image",
+        "default": true,
+        "label": "t:sections.featured-blog.settings.show_image.label"
+      },
+      {
+        "type": "select",
+        "id": "image_height",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+          },
+          {
+            "value": "portrait",
+            "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+          },
+          {
+            "value": "square",
+            "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+          }
+        ],
+        "default": "adapt",
+        "label": "t:sections.featured-collection.settings.image_ratio.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_date",
+        "default": true,
+        "label": "t:sections.featured-blog.settings.show_date.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_author",
+        "default": false,
+        "label": "t:sections.featured-blog.settings.show_author.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_desc",
+        "default": false,
+        "label": "Show description"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_cmment",
+        "default": false,
+        "label": "Show comments"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_view_all",
+        "default": true,
+        "label": "Show view all button"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 0
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.featured-blog.presets.name",
+        "settings": {
+          "blog": "News"
+        }
+      }
+    ]
+  }
+{% endschema %}

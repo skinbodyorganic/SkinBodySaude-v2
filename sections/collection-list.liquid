@@ -1,0 +1,172 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 991px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="wbcolllist section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="clist_right">
+      {%- if section.settings.title != blank -%}
+          <h2 class="heading text-left {{ section.settings.heading_size }}"><span>{{ section.settings.title | escape }}</span></h2>
+      {%- endif -%}
+        <div class="rless">
+          <div class="wbslickcoll">
+          {%- for block in section.blocks -%}
+            <div class="cless {% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}" {{ block.shopify_attributes }}>
+              {% render 'card-collectionhome', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio %}
+            </div>
+          {%- endfor -%}
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+  loadDestinationList = () => {
+
+    fetch('./sections/destination-list-collection.liquid')
+    .then ( (r) => {  return r.text();  } )
+    .then ( (s) => {
+            p= new DOMParser();
+            d = p.parseFromString(s,'text/html') ;
+
+            if ((f = d.body.querySelector('div')) !== null) {
+              document.getElementById('destination-list-collection').append(f);
+            }
+    });
+};
+</script>
+
+<div class="destination-list-collection" id="destination-list-collection"></div>
+
+
+
+
+{% schema %}
+  {
+    "name": "t:sections.collection-list.name",
+    "tag": "section",
+    "class": "section section-collection-list",
+    "max_blocks": 15,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "t:sections.collection-list.settings.title.label",
+        "default": "Collections"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          },
+          {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          },
+          {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "select",
+        "id": "image_ratio",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "t:sections.collection-list.settings.image_ratio.options__1.label"
+          },
+          {
+            "value": "portrait",
+            "label": "t:sections.collection-list.settings.image_ratio.options__2.label"
+          },
+          {
+            "value": "square",
+            "label": "t:sections.collection-list.settings.image_ratio.options__3.label"
+          }
+        ],
+        "default": "square",
+        "label": "t:sections.collection-list.settings.image_ratio.label",
+        "info": "t:sections.collection-list.settings.image_ratio.info"
+      },
+
+
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "featured_collection",
+        "name": "t:sections.collection-list.blocks.featured_collection.name",
+        "settings": [
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.collection-list.presets.name",
+        "blocks": [
+          {
+            "type": "featured_collection"
+          },
+          {
+            "type": "featured_collection"
+          },
+          {
+            "type": "featured_collection"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+

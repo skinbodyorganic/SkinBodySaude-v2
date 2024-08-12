@@ -1,0 +1,15 @@
+.collection-hero__image-container{
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+.collection-hero__description{
+    color: rgba(var(--color-foreground),.5);
+}
+.wbmain_bnr{
+    margin-bottom: 30px;
+}
+@media (max-width: 991px){
+    .wbmain_bnr{
+        margin-bottom: 15px;
+    }   
+}
