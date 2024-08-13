@@ -101,12 +101,14 @@
         "image_8pa8Lb": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/01_9daf1d83-2cf9-4696-8f93-ab5d18bd878b.jpg",
             "link": ""
           }
         },
         "image_EjnNT7": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/02_d30bf396-75ef-4524-9852-e827bc062b68.jpg",
             "link": ""
           }
         }
@@ -117,7 +119,8 @@
       ],
       "custom_css": [
         ".cless {width: 40%;}",
-        ".section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}"
+        "\/* .section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}",
+        " *\/.imgallery section-template--17132969754819__image_gallery_F4bnGB-padding {display: flex; justify-content: center;}"
       ],
       "settings": {
         "m_title": "",
