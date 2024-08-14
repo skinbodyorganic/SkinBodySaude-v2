@@ -285,7 +285,7 @@
       ],
       "custom_css": [
         ".accordion summary {justify-content: center;}",
-        ".section-template--17132969754819__collapsible_content_wcFUQg-padding {padding: 0;}"
+        ".accordion {margin: 0 !important;}"
       ],
       "settings": {
         "caption": "",
