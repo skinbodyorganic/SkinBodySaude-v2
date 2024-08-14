@@ -87,7 +87,7 @@
       "custom_css": [
         ".heading {text-align: center;}",
         ".rless {display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; \/* Para navegadores Firefox *\/}",
-        ".rless::-webkit-scrollbar {display: none; \/* Para navegadores baseados em WebKit, como Chrome e Safari *\/}",
+        ".rless::-webkit-scrollbar {display: none; \/*navegadores baseados em WebKit, como Chrome e Safari *\/}",
         ".rless > * {scroll-snap-align: start;}"
       ],
       "settings": {
