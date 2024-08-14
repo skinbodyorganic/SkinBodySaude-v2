@@ -239,25 +239,20 @@
         "text_kqtPJK": {
           "type": "text",
           "settings": {
-            "text": "<p>Seu Caminho para uma Vida Saudável e Equilibrada.<br\/>Bem-vindo ao mundo da Skin & Body Organic, uma empresa apaixonada em promover a saúde e o bem-estar de maneira segura e eficaz.Movidos pela paixão pelo bem-estar humano, excelência física e respeito pela natureza, estamos comprometidos em todas as etapas. Oferecendo soluções de alta qualidade para homens e mulheres de todas as idades.<\/p><p><strong>Nossos Produtos: A Ciência da Natureza a Seu Favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>"
+            "text": "<p>Seu Caminho para uma Vida Saudável e Equilibrada.<br\/>Bem-vindo ao mundo da Skin & Body Organic, uma empresa apaixonada em promover a saúde e o bem-estar de maneira segura e eficaz.Movidos pela paixão pelo bem-estar humano, excelência física e respeito pela natureza, estamos comprometidos em todas as etapas. Oferecendo soluções de alta qualidade para homens e mulheres de todas as idades.<\/p><p><\/p>"
           }
         },
-        "button_Umye3C": {
-          "type": "button",
+        "text_V6iDhx": {
+          "type": "text",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p><strong>Nossos Produtos: A Ciência da Natureza a Seu Favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_7m3jWT",
         "text_kqtPJK",
-        "button_Umye3C"
+        "text_V6iDhx"
       ],
       "custom_css": [
         ".rich-text__blocks {text-align: left;}"
@@ -271,33 +266,37 @@
         "padding_bottom": 52
       }
     },
-    "main_faq_Jgaken": {
-      "type": "main-faq",
+    "collapsible_content_wcFUQg": {
+      "type": "collapsible-content",
       "blocks": {
-        "rich_text_Ri6LM3": {
-          "type": "rich-text",
+        "collapsible_row_67TcNF": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "Rich text",
-            "text": "<p>Use this section for any text you need to fill out your pages or to add any headings between other blocks.<\/p>",
-            "align_text": "left"
-          }
-        },
-        "question_C9CMBw": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "heading": "Ver mais",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "rich_text_Ri6LM3",
-        "question_C9CMBw"
+        "collapsible_row_67TcNF"
+      ],
+      "custom_css": [
+        ".accordion summary {justify-content: center;}"
       ],
       "settings": {
-        "title": "Skin & Body Organic",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -310,6 +309,6 @@
     "custom_liquid_JecUgB",
     "video_UPKDXh",
     "rich_text_ym4nUX",
-    "main_faq_Jgaken"
+    "collapsible_content_wcFUQg"
   ]
 }
