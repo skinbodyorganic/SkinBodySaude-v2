@@ -255,7 +255,8 @@
         "text_V6iDhx"
       ],
       "custom_css": [
-        ".rich-text__blocks {text-align: left;}"
+        ".rich-text__blocks {text-align: left;}",
+        "@media screen and (max-width: 767px) {.rich-text__blocks > div:last-child {display: none !important; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
