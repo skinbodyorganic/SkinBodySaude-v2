@@ -285,7 +285,8 @@
       ],
       "custom_css": [
         ".accordion summary {justify-content: center;}",
-        ".accordion {margin: 0 !important;}"
+        ".accordion {margin: 0 !important;}",
+        ".collapsible-content__wrapper{padding: 0 !important;}"
       ],
       "settings": {
         "caption": "",
