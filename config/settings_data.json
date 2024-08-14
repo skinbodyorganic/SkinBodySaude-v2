@@ -491,6 +491,9 @@
       },
       "featured-blog": {
         "type": "featured-blog",
+        "custom_css": [
+          ".wbslickblog {justify-content: center}"
+        ],
         "settings": {
           "m_title": "Blog",
           "heading_size": "h2",
