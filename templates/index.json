@@ -85,10 +85,13 @@
         "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-1"
       ],
       "custom_css": [
-        ".heading {text-align: center;}"
+        ".heading {text-align: center;}",
+        ".rless {display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; \/* Para navegadores Firefox *\/}",
+        ".rless::-webkit-scrollbar {display: none; \/* Para navegadores baseados em WebKit, como Chrome e Safari *\/}",
+        ".rless > * {scroll-snap-align: start;}"
       ],
       "settings": {
-        "m_title": "JÁ ESCOLHEU SEU SUPLEMENTO ?",
+        "m_title": "JÁ ESCOLHEU SEU SUPLEMENTO?",
         "heading_size": "h2",
         "image_height": "adapt",
         "padding_top": 60,
