@@ -274,7 +274,7 @@
           "settings": {
             "heading": "Ver mais",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Nossos Produtos: A Ciência da Natureza a Seu Favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. <\/p><p>Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. <\/p><p>Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.<\/p><p>Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.<\/p><p>Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. <\/p><p>Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>",
             "page": ""
           }
         }
@@ -283,11 +283,12 @@
         "collapsible_row_67TcNF"
       ],
       "custom_css": [
-        ".accordion summary {justify-content: center;}"
+        ".accordion summary {justify-content: center;}",
+        ".section-template--17132969754819__collapsible_content_wcFUQg-padding {padding: 0;}"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
