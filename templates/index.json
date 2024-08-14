@@ -123,7 +123,8 @@
       "custom_css": [
         ".cless {width: 40%;}",
         " \/* .section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}",
-        " *\/.rless {display: flex; justify-content: center;}"
+        " *\/.rless {display: flex; justify-content: center;}",
+        "@media screen and (max-width: 767px) {.rless {display: none !important; }}"
       ],
       "settings": {
         "m_title": "",
