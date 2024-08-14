@@ -206,7 +206,7 @@
         "@media only screen and (max-width: 750px) {.video-container {width: 100%; height: auto !important; }}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"video-container\" style=\"height: 630px;\">\n    <iframe id=\"ytplayer\" class=\"youtube_skin\" type=\"text\/html\" width=\"100%\" height=\"100%\"\n    src=\"https:\/\/www.youtube.com\/embed\/zZkW1SqKhCA?autoplay=1&loop=1&controls=0&disablekb=1&fs=0&showinfo=0\"\n    frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.video-container {\n    position: relative;\n    width: 100%;\n    padding-bottom: 56.25%; \/* Mantém a proporção 16:9 *\/\n    height: 0;\n}\n\n#ytplayer {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n@media only screen and (max-width: 750px) {\n  .video-container {\n    height: auto;\n    padding-bottom: 56.25%;\n  }\n}\n<\/style>",
+        "custom_liquid": "<div class=\"video-container\" style=\"height: 630px;\">\n    <iframe id=\"ytplayer\" class=\"youtube_skin\" type=\"text\/html\" width=\"100%\" height=\"100%\"\n    src=\"https:\/\/www.youtube.com\/embed\/zZkW1SqKhCA?autoplay=1&mute=1&loop=1&controls=0&disablekb=1&fs=0&showinfo=0\" frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.video-container {\n    position: relative;\n    width: 100%;\n    padding-bottom: 56.25%; \/* Mantém a proporção 16:9 *\/\n    height: 0;\n}\n\n#ytplayer {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n@media only screen and (max-width: 750px) {\n  .video-container {\n    height: auto;\n    padding-bottom: 56.25%;\n  }\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
