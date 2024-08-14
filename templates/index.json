@@ -203,7 +203,7 @@
     "custom_liquid_JecUgB": {
       "type": "custom-liquid",
       "custom_css": [
-        ".video-container `{height: 630;}",
+        ".video-container ` {height: 630px;}",
         "@media only screen and (max-width: 750px) {.video-container {width: 100%; height: auto; }}"
       ],
       "settings": {
