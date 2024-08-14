@@ -203,7 +203,7 @@
     "custom_liquid_JecUgB": {
       "type": "custom-liquid",
       "custom_css": [
-        "#ytplayer {width: 100%; height: auto; aspect-ratio: 16\/9; \/* Define a proporção do vídeo *\/}",
+        ".video-container `{height: 630;}",
         "@media only screen and (max-width: 750px) {.video-container {width: 100%; height: auto; }}"
       ],
       "settings": {
