@@ -203,7 +203,7 @@
     "custom_liquid_JecUgB": {
       "type": "custom-liquid",
       "custom_css": [
-        ".ytp-cued-thumbnail-overlay-image {background-size: contain}"
+        ".ytp-cued-thumbnail-overlay-image {background-size: contain;}"
       ],
       "settings": {
         "custom_liquid": "<iframe id=\"ytplayer\" type=\"text\/html\" width=\"100%\" height=\"630\"\nsrc=\"https:\/\/www.youtube.com\/embed\/zZkW1SqKhCA?si=cu1EvmgIBldm1F5e?version=3&showinfo=0&loop=1&autoplay=1&controls=0&disablekb=1&fs=0\"\nframeborder=\"0\" allowfullscreen>",
