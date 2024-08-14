@@ -207,8 +207,7 @@
           ".wishlist {display: none;}",
           ".svgbg {background-color: #939393;}",
           ".svgbg:hover {background-color: #fff;}",
-          "nav > ul > li > a {color: #000 !important;}",
-          "span {font-weight: bold !important;}"
+          "@media screen and (max-width: 767px) {.field {display: none !important; }}"
         ],
         "settings": {
           "color_scheme": "accent-1",
