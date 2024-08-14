@@ -120,7 +120,7 @@
       "custom_css": [
         ".cless {width: 40%;}",
         " \/* .section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}",
-        " *\/.rless {display: flex; justify-content: center; align-items: center;}"
+        " *\/.rless {display: flex; justify-content: center;}"
       ],
       "settings": {
         "m_title": "",
