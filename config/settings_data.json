@@ -238,7 +238,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Precisa de Ajuda ?",
-              "menu": ""
+              "menu": "extra"
             }
           },
           "footer-0": {
@@ -251,6 +251,7 @@
           "image_iVmeiE": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/cartoes-the-body.png",
               "image_width": 400,
               "alignment": "center"
             }
