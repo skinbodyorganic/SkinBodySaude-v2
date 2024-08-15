@@ -287,7 +287,7 @@
         ".accordion summary {justify-content: center;}",
         ".accordion {margin: 0 !important; display: none;}",
         ".collapsible-content__wrapper {padding: 0 !important;}",
-        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25% }}"
+        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25%; border-bottom: 1px solid #dfdfdf; }}"
       ],
       "settings": {
         "caption": "",
