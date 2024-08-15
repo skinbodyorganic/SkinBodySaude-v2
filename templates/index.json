@@ -287,7 +287,7 @@
         ".accordion summary {justify-content: center;}",
         ".accordion {margin: 0 !important; display: none;}",
         ".collapsible-content__wrapper {padding: 0 !important;}",
-        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%;}}"
+        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {padding-top: -25%; }}"
       ],
       "settings": {
         "caption": "",
@@ -302,6 +302,139 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_pMBAmW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eTqmLm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Questionário Inicial",
+            "icon": "none",
+            "row_content": "<p>Ao demonstrar interesse em adquirir Eros Plus ou Eros Blend, você receberá um questionário detalhado. Esse questionário é fundamental para entendermos seu histórico de saúde e suas necessidades específicas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QR6qaX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Consulta Online",
+            "icon": "none",
+            "row_content": "<p>Após o envio do questionário, você será agendado para uma consulta online com o médico especialista responsável <strong>Dr Romulo Cruz, CRM-MA 4953\/CRM-TO 2039. <\/strong>Durante essa consulta, o médico avaliará suas respostas e discutirá suas metas e condições de saúde.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MEbgGy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Receita Médica",
+            "icon": "none",
+            "row_content": "<p>Caso o médico aprove o uso de Eros Plus ou Eros Blend, ele emitirá uma receita médica que será enviada por e-mail ou Whatsapp. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CwDgpw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Processamento e Envio",
+            "icon": "none",
+            "row_content": "<p>Com a receita médica em mãos, nossa equipe irá preparar seu pedido com todo o cuidado e rigor necessários. Seu produto será enviado diretamente para você, seguindo todos os padrões de segurança e qualidade.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FWQfXw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eTqmLm",
+        "collapsible_row_QR6qaX",
+        "collapsible_row_MEbgGy",
+        "collapsible_row_CwDgpw",
+        "collapsible_row_FWQfXw"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "Collapsible content",
+        "heading": "Collapsible content",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main_faq_KbHgUq": {
+      "type": "main-faq",
+      "blocks": {
+        "rich_text_Ktk6wb": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Para sua segurança",
+            "text": "<p>Na Skin & Body Supplements, oferecemos produtos de alta qualidade para melhorar sua saúde e bem-estar. Entre nossos produtos, destacam-se Eros Plus e Eros Blend, ambos formulados para proporcionar benefícios excepcionais. No entanto, para garantir sua segurança e a melhor eficácia, a venda desses produtos só é realizada mediante consulta online e receita médica.<\/p><p><strong>Como Funciona<\/strong><\/p>",
+            "align_text": "left"
+          }
+        },
+        "question_KFBnjV": {
+          "type": "question",
+          "settings": {
+            "title": "Questionário Inicial",
+            "text": "<p>Ao demonstrar interesse em adquirir Eros Plus ou Eros Blend, você receberá um questionário detalhado. Esse questionário é fundamental para entendermos seu histórico de saúde e suas necessidades específicas.<\/p>"
+          }
+        },
+        "question_bFRRzF": {
+          "type": "question",
+          "settings": {
+            "title": "Consulta Online",
+            "text": "<p>Após o envio do questionário, você será agendado para uma consulta online com o médico especialista responsável <strong>Dr Romulo Cruz, CRM-MA 4953\/CRM-TO 2039. <\/strong>Durante essa consulta, o médico avaliará suas respostas e discutirá suas metas e condições de saúde.<\/p>"
+          }
+        },
+        "question_NCm8wd": {
+          "type": "question",
+          "settings": {
+            "title": "Receita Médica",
+            "text": "<p>Caso o médico aprove o uso de Eros Plus ou Eros Blend, ele emitirá uma receita médica que será enviada por e-mail ou Whatsapp. <\/p>"
+          }
+        },
+        "question_AHXH7D": {
+          "type": "question",
+          "settings": {
+            "title": "Processamento e Envio",
+            "text": "<p>Com a receita médica em mãos, nossa equipe irá preparar seu pedido com todo o cuidado e rigor necessários. Seu produto será enviado diretamente para você, seguindo todos os padrões de segurança e qualidade.<\/p>"
+          }
+        },
+        "rich_text_DX7pDT": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>Este produto é manipulado especialmente para atender às necessidades individuais de cada cliente. O processo de manipulação é supervisionado pelo farmacêutico responsável, <strong>Fábio Marcos Abreu Feliciano, CRF: 89527<\/strong>, garantindo a qualidade e a segurança do seu tratamento personalizado<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_Ktk6wb",
+        "question_KFBnjV",
+        "question_bFRRzF",
+        "question_NCm8wd",
+        "question_AHXH7D",
+        "rich_text_DX7pDT"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -313,6 +446,8 @@
     "custom_liquid_JecUgB",
     "video_UPKDXh",
     "rich_text_ym4nUX",
-    "collapsible_content_wcFUQg"
+    "collapsible_content_wcFUQg",
+    "collapsible_content_pMBAmW",
+    "main_faq_KbHgUq"
   ]
 }
