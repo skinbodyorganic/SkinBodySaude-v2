@@ -270,15 +270,6 @@
     "collapsible_content_wcFUQg": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_x3yLUT": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
         "collapsible_row_67TcNF": {
           "type": "collapsible_row",
           "settings": {
@@ -290,14 +281,13 @@
         }
       },
       "block_order": [
-        "collapsible_row_x3yLUT",
         "collapsible_row_67TcNF"
       ],
       "custom_css": [
         ".accordion summary {justify-content: center;}",
         ".accordion {margin: 0 !important; display: none;}",
         ".collapsible-content__wrapper {padding: 0 !important;}",
-        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25%; border: 1px solid #000; }}"
+        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25%; }}"
       ],
       "settings": {
         "caption": "",
