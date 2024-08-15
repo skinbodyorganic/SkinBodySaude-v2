@@ -100,7 +100,7 @@
     "upsellcollection": "",
     "upsellpempty": true,
     "upsell_to_show": 2,
-    "cart_drawer_collection": "frontpage",
+    "cart_drawer_collection": "produtos",
     "show_cartpayment": false,
     "show_timer": false,
     "timer_text": "date_2024\/09\/01",

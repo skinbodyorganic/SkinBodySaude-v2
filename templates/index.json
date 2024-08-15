@@ -16,7 +16,7 @@
           "type": "collection",
           "settings": {
             "cat_name": "Featured",
-            "collection": "frontpage",
+            "collection": "produtos",
             "products_to_show": 6,
             "show_view_all": false,
             "view_all_style": "solid"
