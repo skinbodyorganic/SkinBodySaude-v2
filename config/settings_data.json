@@ -209,13 +209,13 @@
           ".svgbg:hover {background-color: #fff;}",
           ".link {color: #212529;}",
           ".list-menu a {color: #333;}",
-          "@media screen and (max-width: 767px) {.field, {display: none !important; }}"
+          "@media screen and (max-width: 767px) {.field {display: none !important; }}"
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/logo-skyn-dark.png",
+          "logo": "shopify:\/\/shop_images\/background_1.png",
           "logo_width": 128,
-          "mobile_logo": "shopify:\/\/shop_images\/logo-skyn-dark.png",
+          "mobile_logo": "shopify:\/\/shop_images\/background_1.png",
           "mobile_logo_width": 110,
           "logo_position": "top-left",
           "show_acicon": true,
