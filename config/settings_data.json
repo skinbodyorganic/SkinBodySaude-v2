@@ -268,7 +268,7 @@
         ],
         "custom_css": [
           ".newsletter-form__button {color: #fff; background-color: #000;}",
-          ".wbfootcont {padding-right: 15px; padding-left: 15px;}"
+          ".section-footer-padding {padding-right: 30px; padding-left: 30px;}"
         ],
         "settings": {
           "wbfoot_bgcolor": "#ffffff",
