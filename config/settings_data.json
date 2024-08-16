@@ -197,19 +197,19 @@
           "2b885d94-9dbc-4570-9274-59692ee5faaa"
         ],
         "custom_css": [
-          ".wbheadtop {display: none;}",
-          "#Search-In-Modal,.field {background-color: #939393; border-radius: 25px; color: #fff;}",
-          "#Search-In-Modal {padding: 0 15px 0;}",
-          ".wr-menu {color: #000; background-image: none;}",
-          ".bar {background-color: #939393;}",
-          ".search__button {background-image: none;}",
-          "#svg_search_button {width: 30px; height: 30px;}",
-          ".wishlist {display: none;}",
-          ".svgbg {background-color: #939393;}",
-          ".svgbg:hover {background-color: #fff;}",
-          ".link {color: #212529;}",
-          ".list-menu a {color: #333;}",
-          "@media screen and (max-width: 767px) {.field {display: none !important; }}"
+          ".wbheadtop{display:none}",
+          "#Search-In-Modal,.field{background-color:#939393;border-radius:25px;color:#fff}",
+          "#Search-In-Modal{padding:0 15px 0}",
+          ".wr-menu{color:#000;background-image:none}",
+          ".bar{background-color:#939393}",
+          ".search__button{background-image:none}",
+          "#svg_search_button{width:30px;height:30px}",
+          ".wishlist{display:none}",
+          ".svgbg{background-color:#939393}",
+          ".svgbg:hover{background-color:#fff}",
+          ".link{color:#212529}",
+          ".list-menu a{color:#333}",
+          "@media screen and (max-width:767px){.field{display:none!important}}"
         ],
         "settings": {
           "color_scheme": "accent-1",
