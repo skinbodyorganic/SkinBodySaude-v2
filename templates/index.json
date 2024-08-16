@@ -431,7 +431,7 @@
         "rich_text_DX7pDT"
       ],
       "custom_css": [
-        ".h2 {font-weight: 700; color: #000;}",
+        ".h2 {font-size: 16; font-weight: 700; color: #000;}",
         ".collapsed {font-family: Inter, sans-serif; color: #333;}"
       ],
       "settings": {
