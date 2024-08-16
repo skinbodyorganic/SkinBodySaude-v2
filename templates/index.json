@@ -256,6 +256,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {text-align: left;}",
+        ".rte p strong {}",
         "@media screen and (max-width: 767px) {.rich-text__blocks > div:last-child {display: none !important; }}"
       ],
       "settings": {
