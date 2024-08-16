@@ -497,7 +497,7 @@
         "type": "featured-blog",
         "custom_css": [
           ".wbslickblog {justify-content: center;}",
-          ".rless a {color: #}"
+          ".wbblogimgdesc a {color: #333;}"
         ],
         "settings": {
           "m_title": "Blog",
