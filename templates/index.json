@@ -430,6 +430,9 @@
         "question_AHXH7D",
         "rich_text_DX7pDT"
       ],
+      "custom_css": [
+        ".collapsed {font-family: Inter, sa}"
+      ],
       "settings": {
         "title": "",
         "padding_top": 0,
