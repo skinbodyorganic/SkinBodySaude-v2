@@ -431,7 +431,7 @@
         "rich_text_DX7pDT"
       ],
       "custom_css": [
-        ".collapsed {font-family: Inter, sa}"
+        ".collapsed {font-family: Inter, sans-serif; color: #333 ;}"
       ],
       "settings": {
         "title": "",
