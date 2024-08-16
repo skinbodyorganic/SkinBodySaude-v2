@@ -267,7 +267,8 @@
           "image_iVmeiE"
         ],
         "custom_css": [
-          ".newsletter-form__button {color: #fff; background-color: #000;}"
+          ".newsletter-form__button {color: #fff; background-color: #000;}",
+          ".wbfootcont {padding-right: 15px; padding-left: 15px;}"
         ],
         "settings": {
           "wbfoot_bgcolor": "#ffffff",
