@@ -209,7 +209,7 @@
           ".svgbg:hover {background-color: #fff;}",
           ".link {color: #212529;}",
           ".list-menu a {color: #333;}",
-          "@media screen and (max-width: 767px) {.field {display: none !important; } }"
+          "@media screen and (max-width: 767px) {.field, . {display: none !important; }}"
         ],
         "settings": {
           "color_scheme": "accent-1",
