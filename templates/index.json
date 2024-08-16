@@ -434,7 +434,7 @@
         ".h2 {font-family: var(--body-font); margin: 0 0 18px; color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700;}",
         ".collapsed {font-family: Inter, sans-serif; color: #333; margin-bottom: 0;}",
         ".wbfaqpart {padding-right: 15px; padding-left: 15px;}",
-        ".FAQ-content-question_KFBnjV {padding: 12px 0 0 12px; background: #dfdfdf;}"
+        ".rte {padding: 12px 0 0 12px; background: #dfdfdf;}"
       ],
       "settings": {
         "title": "",
