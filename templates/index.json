@@ -431,8 +431,9 @@
         "rich_text_DX7pDT"
       ],
       "custom_css": [
-        ".h2 {font-family: var(--body-font); margin: 0 0 18px; color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700; }",
-        ".collapsed {font-family: Inter, sans-serif; color: #333;}"
+        ".h2 {font-family: var(--body-font); margin: 0 0 18px; color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700;}",
+        ".collapsed {font-family: Inter, sans-serif; color: #333;}",
+        ".wbfaqpart {padding-right: 15px; padding-left: 15px;}"
       ],
       "settings": {
         "title": "",
