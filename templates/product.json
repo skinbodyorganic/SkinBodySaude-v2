@@ -255,10 +255,79 @@
         "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
         "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
         ".grid__item {max-width: 100%; padding: 0;}",
-        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}"
+        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
+        ".center {display: none;}"
       ],
       "settings": {
         "title": "Benefícios",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_Q8Hg8w": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_z4Vg3k": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Para Homens:",
+            "text": "<p>Fundamental para o desejo sexual (libido) e a função erétil.<br\/>Vital para a manutenção da densidade óssea e massa muscular.<br\/>Aumenta a produção de esperma e fertilidade masculina, regula<br\/>a distribuição de gordura corporal.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BFWEhQ": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Fortalecimento do Sistema Imunológico:",
+            "text": "<p>Ação antioxidante poderosa, combatendo os radicais livres e<br\/>protegendo a Saúde Celular.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nT7r6L": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Aceleração do Metabolismo:",
+            "text": "<p>Melhoria na circulação sanguínea e queima de gordura, ajudando a<br\/>combater a fadiga (preguiça) e a manter níveis de energia saudáveis e<br\/>altos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fDTX8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eros_Blend.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_z4Vg3k",
+        "column_BFWEhQ",
+        "column_nT7r6L",
+        "column_fDTX8i"
+      ],
+      "custom_css": [
+        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
+        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
+        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
+        ".grid__item {max-width: 100%; padding: 0;}",
+        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}"
+      ],
+      "settings": {
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -322,6 +391,7 @@
     "main_faq_JRz84c",
     "main_faq_PqLGy8",
     "multicolumn_wdETLd",
+    "multicolumn_Q8Hg8w",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
   ]
