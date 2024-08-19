@@ -241,7 +241,7 @@
       ],
       "custom_css": [
         "ul {display: flex; flex-direction: row;}",
-        "ul li {gap: 4px; width: auto;}",
+        "ul li {gap: 4px; width: 33%;}",
         " \/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {display: flex; flex-wrap: wrap; }}"
       ],
       "settings": {
