@@ -253,8 +253,8 @@
       "custom_css": [
         "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
         "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
-        "ul li:last-child {width: 600px;}",
-        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}"
+        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
+        "ul li:last-child {width: 1000px;}"
       ],
       "settings": {
         "title": "Benefícios",
