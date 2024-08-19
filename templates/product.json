@@ -232,16 +232,28 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_fcYxL7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eros_Plus.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_cLmnfP",
         "column_p7hKGE",
-        "column_CrRGiq"
+        "column_CrRGiq",
+        "column_fcYxL7"
       ],
       "custom_css": [
-        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0; }",
-        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box; }",
+        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
+        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
+        "#Slide-template--17132970082499__multicolumn_wdETLd-4 {flex: 1 1 100%; }",
         "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}"
       ],
       "settings": {
@@ -255,6 +267,37 @@
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_JwqpzH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ggmwaX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eros_Plus.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ggmwaX"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -309,6 +352,7 @@
     "main_faq_JRz84c",
     "main_faq_PqLGy8",
     "multicolumn_wdETLd",
+    "multicolumn_JwqpzH",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
   ]
