@@ -5742,4 +5742,22 @@ header-drawer {
   
 }
 
-    button#checkout { display:none !important; }
+button#checkout { display:none !important; }
+
+/* Mudanças feitas por Renato */
+.link {
+  color: #212529;
+}
+.list-menu a {
+  color: #333;
+}
+@media screen and (max-width: 767px) {
+  .field,
+  .menu-drawer__utility-links .wbsecmenu {
+    display: none !important;
+  }
+  .menu-drawer__navigation {
+    display: flex;
+    align-items: center;
+  }
+}
