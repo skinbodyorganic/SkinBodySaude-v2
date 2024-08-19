@@ -146,6 +146,9 @@
           "4b76336a-e19a-4980-8af4-9ef1e042aae2",
           "66a41840-6d2b-4bc7-a349-eb1b5fbad4f0"
         ],
+        "custom_css": [
+
+        ],
         "settings": {
           "home_only": false,
           "mobile_bar": true,
@@ -197,7 +200,7 @@
           "2b885d94-9dbc-4570-9274-59692ee5faaa"
         ],
         "custom_css": [
-          ".wbheadtop, . {display: none;}",
+          ".wbheadtop,. {display: none;}",
           "#Search-In-Modal,.field {background-color: #939393; border-radius: 25px; color: #fff;}",
           "#Search-In-Modal {padding: 0 15px 0;}",
           ".wr-menu {color: #000; background-image: none;}",
