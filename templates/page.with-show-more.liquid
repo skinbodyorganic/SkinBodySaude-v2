@@ -12,3 +12,17 @@
         <button id="showMoreBtn" onClick="toggleText()">Ver Mais</button>
     </div>
 </div>
+<script>
+function toggleText() {
+    var moreText = document.getElementById("moreText");
+    var btnText = document.getElementById("showMoreBtn");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        btnText.textContent = "Ver Menos";
+    } else {
+        moreText.style.display = "none";
+        btnText.textContent = "Ver Mais";
+    }
+}
+</script>
