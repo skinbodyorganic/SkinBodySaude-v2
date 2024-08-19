@@ -158,10 +158,99 @@
         "rich_text_y8YAYF",
         "question_dHifUt"
       ],
+      "custom_css": [
+        ".collapsed {display: block; width: auto; margin: 10px auto; padding: 8px 16px; font-size: 14px; border-radius: 4px; color: #fff; background-color: #000; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);}",
+        "span {margin-right: 8px;}",
+        ".faqhead.toggle.collapsed:after {color: #fff;}"
+      ],
       "settings": {
         "title": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "main_faq_PqLGy8": {
+      "type": "main-faq",
+      "blocks": {
+        "rich_text_a4pbnU": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_dBqkUq": {
+          "type": "question",
+          "settings": {
+            "title": "Tabela nutricional",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_a4pbnU",
+        "question_dBqkUq"
+      ],
+      "custom_css": [
+        ".collapsed {display: block; width: auto; margin: 10px auto; padding: 8px 16px; font-size: 14px; border-radius: 4px; color: #fff; background-color: #ff1f1e; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);}",
+        "span {margin-right: 8px;}",
+        ".faqhead.toggle.collapsed:after {color: #fff;}"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_wdETLd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cLmnfP": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Melhora da função erétil:",
+            "text": "<p>Promove ereções mais fortes e duradouras.<\/p><p><\/p><p>✔️ Melhora da vasodilatação:<br\/>Aumenta o fluxo sanguíneo para os órgãos sexuais.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_p7hKGE": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Produção de testosterona:",
+            "text": "<p>Essencial para a produção de testosterona.<br\/><br\/>✔️ Intensificação do prazer e orgasmos:<br\/>Melhora a sensação de prazer e intensifica os orgasmos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CrRGiq": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cLmnfP",
+        "column_p7hKGE",
+        "column_CrRGiq"
+      ],
+      "settings": {
+        "title": "Benefícios",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
@@ -213,6 +302,8 @@
     "main",
     "featured_collection_mChzwm",
     "main_faq_JRz84c",
+    "main_faq_PqLGy8",
+    "multicolumn_wdETLd",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
   ]
