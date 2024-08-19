@@ -2,13 +2,13 @@
     <h1>{{ page.title }}</h1>
     <div class="custom-content">
         <p class="intro-text">
-            {{ page.metafields.custom.intro_text }}
+            {{ page.metafields.custom.intro_text }} <!-- ou {{ page.content | split: '<!-- more -->' | first }} -->
         </p>
-        <div class="more-text" style="display:none;">
+        <div id="moreText" style="display:none;">
             <p>
-                {{ page.metafields.custom.more_text }}
+                {{ page.metafields.custom.more_text }} <!-- ou {{ page.content | split: '<!-- more -->' | last }} -->
             </p>
         </div>
-        <button class="show-more-btn">Ver Mais</button>
+        <button id="showMoreBtn" onClick="toggleText()">Ver Mais</button>
     </div>
 </div>
