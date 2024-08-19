@@ -240,9 +240,9 @@
         "column_CrRGiq"
       ],
       "custom_css": [
-        "ul {display: grid; grid-template-columns: repeat(3, 1fr);}",
+        "ul {display: flex; flex-direction: row;}",
         "ul li {gap: 4px; width: auto;}",
-        " \/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {display: flex; flex-wrap: wrap }}"
+        " \/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {display: flex; flex-wrap: wrap; }}"
       ],
       "settings": {
         "title": "Benefícios",
