@@ -251,9 +251,10 @@
         "column_fcYxL7"
       ],
       "custom_css": [
-        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0; }",
-        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box; }",
-        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}"
+        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
+        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
+        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
+        ".grid__item {max-width: 100%;}"
       ],
       "settings": {
         "title": "Benefícios",
