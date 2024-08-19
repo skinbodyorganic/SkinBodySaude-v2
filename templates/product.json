@@ -31,7 +31,7 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        "h2,p {color: #dfdfdf; text-align: left; font-family: Montserrat, sans-serif; font-size: 12px;}",
+        "h2,p {color: #dfdfdf; text-align: left; font-family: Archivo, serif; font-size: 16px; font-style: normal;}",
         "h2 {}",
         ".wbimg_txt_flex {background-color: #000;}",
         ".image-with-text__media {border: none;}"
