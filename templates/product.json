@@ -135,6 +135,35 @@
         "padding_bottom": 36
       }
     },
+    "main_faq_JRz84c": {
+      "type": "main-faq",
+      "blocks": {
+        "rich_text_y8YAYF": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Ingredientes e Benefícios",
+            "text": "<p><strong>Citrato de Clomifeno<br\/><\/strong>Estimula a produção de testosterona de forma natural, melhorando a libido, a qualidade do esperma e a função reprodutiva masculina. Esse composto é conhecido por sua eficácia em aumentar os níveis de testosterona, promovendo uma melhora significativa na saúde sexual e no bem-estar geral dos homens. Além disso, ajuda a equilibrar os hormônios, contribuindo para uma melhor disposição física e mental.<br\/><\/p><p><strong>Magnésio Dimalato<br\/><\/strong>Essencial para a produção de energia, função muscular e saúde do sistema nervoso. Este mineral é crucial para a síntese de proteínas e para a função muscular adequada, incluindo o relaxamento e contração dos músculos. O Magnésio Dimalato também ajuda a reduzir a fadiga e melhora o equilíbrio dos eletrólitos no corpo, promovendo uma recuperação mais rápida após atividades físicas intensas.<\/p>",
+            "align_text": "left"
+          }
+        },
+        "question_dHifUt": {
+          "type": "question",
+          "settings": {
+            "title": "Ver mais",
+            "text": "<p><strong>Vitamina K2<br\/><\/strong>Promove a saúde óssea e cardiovascular, ajudando na melhor circulação sanguínea e no transporte de nutrientes essenciais para os músculos e órgãos sexuais. A Vitamina K2 é vital para a mineralização óssea adequada e para prevenir doenças cardiovasculares, facilitando a distribuição e utilização adequada do cálcio no organismo. Isso resulta em ossos mais fortes e uma função cardiovascular melhorada, essenciais para a saúde geral e desempenho físico.<\/p><p><strong>Tadalafila<br\/><\/strong>Melhora a vasodilatação, promovendo ereções mais fortes e duradouras. Aumenta o fluxo sanguíneo para os órgãos sexuais, melhorando a sensibilidade e o prazer. Contribui para um desempenho sexual mais satisfatório e uma maior confiança.<\/p><p><strong>Coenzima Q10<br\/><\/strong>Desempenha um papel crucial na produção de energia celular, melhorando o desempenho físico e a recuperação muscular. Além disso, é um poderoso antioxidante que protege as células dos danos oxidativos e promove uma melhor saúde cardiovascular. Também auxilia na melhoria da função mitocondrial, aumentando a resistência e a vitalidade.<\/p><p><strong>Cogumelo Cordyceps<br\/><\/strong>Aumenta a energia, a resistência e a vitalidade. Ele melhora a função respiratória e cardiovascular, promove a recuperação muscular e fortalece o sistema imunológico. Além disso, possui propriedades antioxidantes e anti-inflamatórias que protegem as células do corpo contra danos.<\/p><p><strong>Zinco<br\/><\/strong>Essencial para a produção de testosterona, melhora a saúde do sistema imunológico e a função reprodutiva. Auxilia no aumento da libido e da fertilidade. O Zinco também desempenha um papel crucial na manutenção dos níveis de testosterona, promovendo a saúde sexual e o desempenho físico.<\/p><p><strong>Taurina<br\/><\/strong>Desempenha papéis importantes na regulação da função cardíaca, saúde do sistema nervoso central e melhora do desempenho atlético. Reduz a fadiga muscular e aumenta a queima de gordura, contribuindo para uma melhor composição corporal e níveis de energia.<\/p><p><strong>Vitamina B12<br\/><\/strong>Crucial para o metabolismo energético, formação de glóbulos vermelhos e manutenção do sistema nervoso. Acelera a recuperação muscular e melhora a saúde cognitiva. Ajuda na produção de energia, permitindo um melhor desempenho físico e mental.<\/p><p><strong>Vitamina D<br\/><\/strong>Fundamental para a saúde óssea, função imunológica, saúde cardiovascular e regulação hormonal. Combate a fadiga e melhora a energia e bem-estar geral. A Vitamina D é essencial para manter níveis saudáveis de testosterona, promovendo a saúde sexual e o desempenho físico.<\/p><p><strong>Vitamina B6<br\/><\/strong>Auxilia na produção de neurotransmissores que regulam o humor e a função cognitiva. Suporta a saúde do sistema nervoso e cardiovascular. A Vitamina B6 também desempenha um papel na regulação hormonal, ajudando a manter níveis adequados de testosterona.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_y8YAYF",
+        "question_dHifUt"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -183,6 +212,7 @@
     "image_with_text_fWftgP",
     "main",
     "featured_collection_mChzwm",
+    "main_faq_JRz84c",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
   ]
