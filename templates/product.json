@@ -210,7 +210,7 @@
           "type": "column",
           "settings": {
             "title": "✔️ Melhora da função erétil:",
-            "text": "<p>Promove ereções mais fortes e duradouras.<\/p><p><\/p><p>✔️ Melhora da vasodilatação:<\/p><p><br\/>Aumenta o fluxo sanguíneo para os órgãos sexuais.<\/p>",
+            "text": "<p>Promove ereções mais fortes e duradouras.<br\/><br\/>✔️ Melhora da vasodilatação:<br\/><br\/>Aumenta o fluxo sanguíneo para os órgãos sexuais.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -241,7 +241,8 @@
       ],
       "custom_css": [
         "ul {display: grid; grid-template-columns: repeat(3, 1fr);}",
-        "ul li {gap: 4px; width: auto;}"
+        "ul li {gap: 4px; width: auto;}",
+        "\/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {grid-template-columns: 1fr; \/* 1 coluna para telas menores *\/ }}"
       ],
       "settings": {
         "title": "Benefícios",
