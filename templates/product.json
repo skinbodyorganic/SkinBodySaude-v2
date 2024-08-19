@@ -22,23 +22,13 @@
         "caption_jckW3i": {
           "type": "caption",
           "settings": {
-            "storysubtitle": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_Fb3WHX": {
-          "type": "button",
-          "settings": {
-            "btntxt": "Saiba mais",
-            "link": "",
-            "button_style": "button--secondary",
-            "button_size": "bs_large"
+            "storysubtitle": "<p><strong>ESTIMULA A PRODUÇÃO DE TESTOSTERONA<\/strong><\/p><p>Homens com baixa produção de testosterona, falência testicular, falta de desejo sexual, disfunção erétil e fadiga muscular: <br\/><br\/>Eros Hormone Plus é a solução que você precisa. <br\/><br\/>Eros Plus estimula a produção de testosterona, melhora o desejo sexual, aumenta a massa muscular e a força, além de eliminar a fadiga. <br\/><br\/>Seu corpo com músculos mais fortes, maior resistência muscular e um sistema imunológico fortalecido. <br\/><br\/>Eros Hormone Plus combina Citrato de Clomifeno, Magnésio Dimalato, Coenzima Q10, Cogumelos Cordyceps, Zinco, Vitaminas B-6, B-12, D-3, Taurina, Vitamina K-2 e Tadalafila. <\/p><p>Esses nutrientes são essenciais para aumentar os níveis de testosterona. <\/p><p>Não deixe que a baixa testosterona defina sua vida. <\/p><p>Eros Hormone Plus garante resultados.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_ze7X6m",
-        "caption_jckW3i",
-        "button_Fb3WHX"
+        "caption_jckW3i"
       ],
       "settings": {
         "color_scheme": "background-1",
