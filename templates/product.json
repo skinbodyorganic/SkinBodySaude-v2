@@ -19,6 +19,15 @@
             "heading_size": "h1"
           }
         },
+        "button_f7wNka": {
+          "type": "button",
+          "settings": {
+            "btntxt": "Shop the collection",
+            "link": "",
+            "button_style": "button--secondary",
+            "button_size": "bs_large"
+          }
+        },
         "caption_97RDm8": {
           "type": "caption",
           "settings": {
@@ -28,6 +37,7 @@
       },
       "block_order": [
         "heading_8QJUwr",
+        "button_f7wNka",
         "caption_97RDm8"
       ],
       "settings": {
