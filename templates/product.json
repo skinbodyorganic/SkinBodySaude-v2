@@ -242,7 +242,7 @@
       "custom_css": [
         "ul {display: grid; grid-template-columns: repeat(3, 1fr);}",
         "ul li {gap: 4px; width: auto;}",
-        "\/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {grid-template-columns: 1fr; \/* 1 coluna para telas menores *\/ }}"
+        " \/* Responsividade para telas menores *\/@media (max-width: 768px) {ul {grid-template-columns: 1fr; }}"
       ],
       "settings": {
         "title": "Benefícios",
