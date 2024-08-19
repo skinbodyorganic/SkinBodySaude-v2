@@ -10,14 +10,18 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "page",
       "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
+      }
+    },
+    "show_more_section": {
+      "type": "show-more-section",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "show_more_section"
   ]
 }
