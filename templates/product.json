@@ -396,7 +396,7 @@
         "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
-        "#Slide-template--17132970082499__multicolumn_wdETLd-4 .multicolumn-card__info {padding: 0;}",
+        "#Slide-template--17132970082499__multicolumn_pW6jXA-4 .multicolumn-card__info {padding: 0;}",
         ".center {display: none;}"
       ],
       "settings": {
