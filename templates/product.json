@@ -31,7 +31,7 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        "h2, p {text: left;}"
+        "h2,p {text-align: left;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -58,6 +58,15 @@
         "75951c32-13e5-42b3-8df4-bb2cace9d37a": {
           "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-star-rating\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
+          }
+        },
+        "51f9ec55-0b8a-48aa-aa66-81e7cd90b613": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Care instructions",
+            "content": "",
+            "page": "care-instructions"
           }
         },
         "price": {
@@ -125,15 +134,6 @@
             "page": "materials"
           }
         },
-        "51f9ec55-0b8a-48aa-aa66-81e7cd90b613": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "heading": "Care instructions",
-            "content": "",
-            "page": "care-instructions"
-          }
-        },
         "a1403a69-2c8f-461f-bb0e-e71e2bafa8bd": {
           "type": "content",
           "disabled": true,
@@ -147,6 +147,7 @@
       "block_order": [
         "title",
         "75951c32-13e5-42b3-8df4-bb2cace9d37a",
+        "51f9ec55-0b8a-48aa-aa66-81e7cd90b613",
         "price",
         "variant_picker",
         "7bc1714c-9d6a-4368-b677-08b46b8dee8a",
@@ -156,7 +157,6 @@
         "53d1b536-e8c6-416b-81ae-5537d48a8356",
         "description",
         "8c8ae4ba-d321-4ae0-b17c-59a32e6dc5e3",
-        "51f9ec55-0b8a-48aa-aa66-81e7cd90b613",
         "a1403a69-2c8f-461f-bb0e-e71e2bafa8bd"
       ],
       "settings": {
