@@ -325,7 +325,79 @@
         "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
         "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
         ".grid__item {max-width: 100%; padding: 0;}",
-        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}"
+        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
+        "#Slide-template--17132970082499__multicolumn_wdETLd-4 .multicolumn-card__info {padding: 0;}",
+        ".center {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_pW6jXA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nxiAt3": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Produção de testosterona:",
+            "text": "<p>Promove ereções mais fortes e duradouras.<br\/><br\/>✔️ Melhora da vasodilatação:<br\/>Aumenta o fluxo sanguíneo para os órgãos sexuais.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DFYWUx": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Maior sensibilidade nos órgãos genitais:",
+            "text": "<p>Essencial para a produção de testosterona.<br\/><br\/>✔️ Intensificação do prazer e orgasmos:<br\/>Melhora a sensação de prazer e intensifica os orgasmos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w9nk4K": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ Aceleração do Metabolismo:",
+            "text": "<p>Elevando o desejo e a excitação.<br\/><br\/>✔️ Regulação da testosterona:<br\/><br\/>Elevação dos níveis de testosterona de forma natural.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U7e4x9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eros_Energy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nxiAt3",
+        "column_DFYWUx",
+        "column_w9nk4K",
+        "column_U7e4x9"
+      ],
+      "custom_css": [
+        "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
+        "ul li {flex: 1 1 300px; height: auto; box-sizing: border-box;}",
+        "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
+        ".grid__item {max-width: 100%; padding: 0;}",
+        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
+        "#Slide-template--17132970082499__multicolumn_wdETLd-4 .multicolumn-card__info {padding: 0;}",
+        ".center {display: none;}"
       ],
       "settings": {
         "title": "",
@@ -393,6 +465,7 @@
     "main_faq_PqLGy8",
     "multicolumn_wdETLd",
     "multicolumn_Q8Hg8w",
+    "multicolumn_pW6jXA",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
   ]
