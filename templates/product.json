@@ -120,7 +120,7 @@
         "heading_size": "h1",
         "collection": "sugestoes-eros-hormone-plus",
         "products_to_show": 4,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "display_product_type": false,
         "show_secondary_image": false,
         "show_vendor": false,
@@ -137,6 +137,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Mais vendidos",
         "heading_size": "h2",
