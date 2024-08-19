@@ -30,6 +30,10 @@
         "heading_ze7X6m",
         "caption_jckW3i"
       ],
+      "custom_css": [
+        "h2,p {color: #dfdfdf; text-align: left;}",
+        ".wbimg_txt_flex {background-color: #000;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "image": "shopify:\/\/shop_images\/eros_hormone1.png",
@@ -39,7 +43,7 @@
         "image_height": "adapt",
         "Horizontal_alignment": "center",
         "mobile_alignment": "center",
-        "padding_top": 60,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
