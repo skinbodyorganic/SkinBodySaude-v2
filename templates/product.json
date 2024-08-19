@@ -9,36 +9,36 @@
 */
 {
   "sections": {
-    "image_with_text_C3V3LM": {
+    "image_with_text_fWftgP": {
       "type": "image-with-text",
       "blocks": {
-        "heading_8QJUwr": {
+        "heading_ze7X6m": {
           "type": "heading",
           "settings": {
             "storytitle": "EROS PLUS",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
-        "button_f7wNka": {
+        "caption_jckW3i": {
+          "type": "caption",
+          "settings": {
+            "storysubtitle": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_Fb3WHX": {
           "type": "button",
           "settings": {
-            "btntxt": "Shop the collection",
+            "btntxt": "Saiba mais",
             "link": "",
             "button_style": "button--secondary",
             "button_size": "bs_large"
           }
-        },
-        "caption_97RDm8": {
-          "type": "caption",
-          "settings": {
-            "storysubtitle": "<p>ESTIMULA A PRODUÇÃO DE TESTOSTERONA<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading_8QJUwr",
-        "button_f7wNka",
-        "caption_97RDm8"
+        "heading_ze7X6m",
+        "caption_jckW3i",
+        "button_Fb3WHX"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -49,7 +49,7 @@
         "image_height": "adapt",
         "Horizontal_alignment": "center",
         "mobile_alignment": "center",
-        "padding_top": 0,
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -222,7 +222,7 @@
     }
   },
   "order": [
-    "image_with_text_C3V3LM",
+    "image_with_text_fWftgP",
     "main",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
