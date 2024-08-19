@@ -5761,18 +5761,4 @@ button#checkout { display:none !important; }
     align-items: center;
   }
 }
-/* Teste novo modelo */
-.show-more-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.show-more-btn:hover {
-    background-color: #0056b3;
-}
 
