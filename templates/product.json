@@ -9,6 +9,40 @@
 */
 {
   "sections": {
+    "image_with_text_C3V3LM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8QJUwr": {
+          "type": "heading",
+          "settings": {
+            "storytitle": "EROS PLUS",
+            "heading_size": "h1"
+          }
+        },
+        "caption_97RDm8": {
+          "type": "caption",
+          "settings": {
+            "storysubtitle": "<p>ESTIMULA A PRODUÇÃO DE TESTOSTERONA<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8QJUwr",
+        "caption_97RDm8"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/eros_hormone1.png",
+        "image_width": "50%",
+        "image_position": "imgpleft",
+        "imgalign": "imgalignmiddle",
+        "image_height": "adapt",
+        "Horizontal_alignment": "center",
+        "mobile_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -160,7 +194,7 @@
         "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a": {
           "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
-            "product": "eros-plus-ultra-regulador-de-testosterona",
+            "product": "eros-blend-energy-and-libid-1200mg",
             "name": "Review Box",
             "vertical_alignment": "2",
             "rating_color": "#1f1f1f",
@@ -178,6 +212,7 @@
     }
   },
   "order": [
+    "image_with_text_C3V3LM",
     "main",
     "product-recommendations",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
