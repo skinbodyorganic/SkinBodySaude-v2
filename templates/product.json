@@ -645,8 +645,9 @@
       "custom_css": [
         "ul {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0;}",
         "ul li {max-width: 25%; height: auto; padding-right: 0; display: flex; justify-content: cemter; align-items: center;}",
-        "ul li img {max-width: 150px; object-fit: scale-down;}",
+        "ul li img {max-width: 150px; height: 150px; object-fit: scale-down;}",
         "h4 {font-size: 20px;}",
+        ".multicolumn-card__info {padding: 1.5rem}",
         "@media (max-width: 768px) {ul li {max-width: 100%; }}"
       ],
       "settings": {
