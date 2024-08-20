@@ -644,7 +644,8 @@
       ],
       "custom_css": [
         "ul {display: flex; flex-direction: row; gap: 0;}",
-        "ul li {width: 25%;}"
+        "ul li {width: 25%; padding-right: 0;}",
+        "ul li img {max-width: 100%;}"
       ],
       "settings": {
         "title": "Aqui sua compra é 100% segura!",
