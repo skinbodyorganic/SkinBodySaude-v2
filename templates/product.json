@@ -236,7 +236,7 @@
         "column_fcYxL7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eros_Plus.jpg",
+            "image": "shopify:\/\/shop_images\/Eros_Blend_7d5c87fc-be1f-476c-8472-d15d8fdbf65e.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -392,7 +392,7 @@
       ],
       "custom_css": [
         "ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 0; margin: 0;}",
-        "ul li {flex: 1 1 30%;; height: auto; box-sizing: border-box;}",
+        "ul li {flex: 1 1 30%; height: auto; box-sizing: border-box;}",
         "@media (max-width: 768px) {ul {justify-content: space-between; } ul li {flex: 1 1 100%; }}",
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
