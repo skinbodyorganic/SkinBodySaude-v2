@@ -31,7 +31,8 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        "h2,p {text-align: left;}"
+        "h2,p {text-align: left;}",
+        ".imgalignmiddle {background: #000;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -649,7 +650,7 @@
         "h4 {font-size: 20px;}",
         ".multicolumn-card__info {padding: 1.5rem;}",
         ".content-container {display: flex; flex-direction: column; justify-content: center; min-height: 100%;}",
-        ".multicolumn-card-spacing {padding-top: 0 }",
+        ".multicolumn-card-spacing {padding-top: 0;}",
         "@media (max-width: 768px) {ul li {max-width: 100%; }}"
       ],
       "settings": {
