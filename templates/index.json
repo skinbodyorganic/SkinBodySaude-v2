@@ -434,7 +434,7 @@
       "custom_css": [
         ".h2 {font-family: var(--body-font); margin: 0 0 18px; color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700;}",
         ".collapsed {font-family: Inter, sans-serif; color: #333; margin-bottom: 0;}",
-        ".wbfaqpart {max-width: 78rem; position: relative; margin-right: auto; margin-left: auto;}",
+        ".wbfaqpart {max-width: 78rem; position: relative; padding: 0 15px; margin-right: auto; margin-left: auto;}",
         ".collapse {padding: 12px 0 12px 12px; background: #dfdfdf;}"
       ],
       "settings": {
