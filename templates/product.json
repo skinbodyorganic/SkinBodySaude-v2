@@ -236,7 +236,7 @@
         "column_fcYxL7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eros_Blend_7d5c87fc-be1f-476c-8472-d15d8fdbf65e.jpg",
+            "image": "shopify:\/\/shop_images\/Eros_Plus_23aeab35-230a-467f-81fb-6041796d4531.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -257,7 +257,8 @@
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
         "#Slide-template--17132970082499__multicolumn_wdETLd-4 .multicolumn-card__info {padding: 0;}",
-        ".center {display: none;}"
+        ".center {display: none;}",
+        "h4 {font-size: 16px;}"
       ],
       "settings": {
         "title": "Benefícios",
@@ -306,7 +307,7 @@
         "column_fDTX8i": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eros_Blend.jpg",
+            "image": "shopify:\/\/shop_images\/Eros_Blend_7d5c87fc-be1f-476c-8472-d15d8fdbf65e.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -376,7 +377,7 @@
         "column_U7e4x9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eros_Energy.jpg",
+            "image": "shopify:\/\/shop_images\/Eros_Energy_9f4af707-ab63-4a7e-a4ca-dfcc880ad58f.jpg",
             "title": "",
             "text": "",
             "link_label": "",
