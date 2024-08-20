@@ -459,10 +459,195 @@
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
         "#Slide-template--17132970082499__multicolumn_wdETLd-4 .multicolumn-card__info {padding: 0;}",
-        ".center {display: none;}"
+        ".center {display: none;}",
+        "h4 {font-size: 16px;}"
       ],
       "settings": {
         "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a": {
+      "type": "apps",
+      "blocks": {
+        "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a": {
+          "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "product": "eros-blend-energy-and-libid-1200mg",
+            "name": "Review Box",
+            "vertical_alignment": "2",
+            "rating_color": "#1f1f1f",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1f1f1f"
+          }
+        }
+      },
+      "block_order": [
+        "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_Y4rnQC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AGFcbw": {
+          "type": "heading",
+          "settings": {
+            "storytitle": "THE BODY",
+            "heading_size": "h0"
+          }
+        },
+        "caption_gNweiw": {
+          "type": "caption",
+          "settings": {
+            "storysubtitle": "<h4>Seu Companheiro na Jornada de Emagrecimento<\/h4><p>The Body é um aliado completo para sua saúde. Desenvolvido para queimar gordura, controlar o apetite, eliminar compulsão por doces, acelerar o metabolismo, remover gordura do fígado, aliviar inflamações intestinais e reduzir a retenção de líquidos.<br\/><br\/>The Body é a fórmula avançada que cuida de você. Independentemente da sua idade ou sexo, ele está aqui para ajudá-lo a alcançar seus objetivos de emagrecimento e viver com mais saúde e confiança. Sua jornada para a melhor versão de si mesmo começa com The Body<\/p>"
+          }
+        },
+        "button_8H3GLm": {
+          "type": "button",
+          "settings": {
+            "btntxt": "Confira agora",
+            "link": "",
+            "button_style": "button--secondary",
+            "button_size": "bs_large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AGFcbw",
+        "caption_gNweiw",
+        "button_8H3GLm"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/05_9ee20ac1-b975-4618-8923-3983124d21a8.jpg",
+        "image_width": "50%",
+        "image_position": "imgpleft",
+        "imgalign": "imgalignmiddle",
+        "image_height": "adapt",
+        "Horizontal_alignment": "center",
+        "mobile_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_YpJJYn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YUaVzN": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Eros vai além do estimulante sexual. Ele é um nootrópico e polivitamínico desenvolvido para ajudar homens e mulheres a redescobrirem o prazer, o desejo e o conforto sexual, além de reduzir os níveis de estresse e sintomas relacionados à perda da libido.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HenDfA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Eros restabelece os níveis hormonais, aumentando a testosterona, proporcionando ganho de massa muscular, aumento do desejo sexual, a produção de esperma e fertilidade masculina.<br\/>Regula a distribuição de gordura corporal.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QQr8RN": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Eros elimina ansiedade e estresse sexual: preocupações psicológicas que afetam o desempenho sexual.<\/p><p><br\/>É nesse cenário que o nosso suplemento se destaca como uma solução eficaz para:<br\/>Homens que têm dificuldade em obter ou manter uma ereção ou que ejaculam mais rapidamente do que o desejado.<br\/>Homens com baixa libido: diminuição do desejo sexual ou com dificuldade em ejacular ou atingir o orgasmo.<br\/>Eros aborda diretamente desequilíbrios hormonais que afetam a função sexual devido aos níveis de testosterona estarem baixos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YUaVzN",
+        "column_HenDfA",
+        "column_QQr8RN"
+      ],
+      "settings": {
+        "title": "O QUE É O EROS",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_kXdGpL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_f9K3fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/data.png",
+            "title": "Dados Pessoais",
+            "text": "<p>São totalmente sigilosos e não são compartilhados.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wJ8cGt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seg_ba9b7cb0-c048-42a7-b05c-dc7f2835bf58.png",
+            "title": "Site Confiável",
+            "text": "<p>Monitorado todo o tempo por empresas de segurança digital.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qdyXtY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/send.png",
+            "title": "Entrega Garantida",
+            "text": "<p>Logística eficaz com entregas feitas no prazo combinado.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ECaqDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/segurity.png",
+            "title": "Dados Financeiros",
+            "text": "<p>Gravados em ambiente<br\/>100% seguro.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_f9K3fe",
+        "column_wJ8cGt",
+        "column_qdyXtY",
+        "column_ECaqDn"
+      ],
+      "custom_css": [
+        "ul {display: flex; flex-direction: row; gap: 0;}",
+        "ul li {width: 25%;}"
+      ],
+      "settings": {
+        "title": "Aqui sua compra é 100% segura!",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -495,28 +680,6 @@
         "padding_top": 60,
         "padding_bottom": 0
       }
-    },
-    "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a": {
-      "type": "apps",
-      "blocks": {
-        "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a": {
-          "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-            "product": "eros-blend-energy-and-libid-1200mg",
-            "name": "Review Box",
-            "vertical_alignment": "2",
-            "rating_color": "#1f1f1f",
-            "section_color": "#ffffff",
-            "primary_text_color": "#1f1f1f"
-          }
-        }
-      },
-      "block_order": [
-        "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -529,7 +692,10 @@
     "multicolumn_Q8Hg8w",
     "multicolumn_pW6jXA",
     "multicolumn_prC6pk",
-    "product-recommendations",
-    "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a"
+    "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a",
+    "image_with_text_Y4rnQC",
+    "multicolumn_YpJJYn",
+    "multicolumn_kXdGpL",
+    "product-recommendations"
   ]
 }
