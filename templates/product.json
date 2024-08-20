@@ -648,7 +648,8 @@
         "ul li img {object-fit: scale-down;}",
         "h4 {font-size: 20px;}",
         ".multicolumn-card__info {padding: 1.5rem;}",
-        ".content-container {display: flex; flex-direction:column; justify-content: center; align-items: center;}",
+        ".content-container {display: flex; flex-direction: column; justify-content: center; min-height: 100%;}",
+        ".multicolumn-card-spacing {padding-top: 0 }",
         "@media (max-width: 768px) {ul li {max-width: 100%; }}"
       ],
       "settings": {
