@@ -328,7 +328,8 @@
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
         "#Slide-template--17132970082499__multicolumn_Q8Hg8w-4 .multicolumn-card__info {padding: 0;}",
-        ".center {display: none;}"
+        ".center {display: none;}",
+        "h4 {font-size: 16px;}"
       ],
       "settings": {
         "title": "",
@@ -398,7 +399,8 @@
         ".grid__item {max-width: 100%; padding: 0;}",
         ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 12px 0 0 0;}",
         "#Slide-template--17132970082499__multicolumn_pW6jXA-4 .multicolumn-card__info {padding: 0;}",
-        ".center {display: none;}"
+        ".center {display: none;}",
+        "h4 {font-size: 16px;}"
       ],
       "settings": {
         "title": "",
