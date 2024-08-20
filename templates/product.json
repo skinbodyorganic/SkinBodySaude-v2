@@ -643,7 +643,7 @@
         "column_ECaqDn"
       ],
       "custom_css": [
-        "ul {display: flex; flex-direction: row; flex-wrap: wrap; gap: 0;}",
+        "ul {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0;}",
         "ul li {max-width: 25%; padding-right: 0;}",
         "ul li img {max-width: 100%; object-fit: scale-down;}",
         "@media (max-width: 768px) {ul li {max-width: 100%; }}"
