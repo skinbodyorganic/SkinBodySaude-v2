@@ -644,8 +644,9 @@
       ],
       "custom_css": [
         "ul {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0;}",
-        "ul li {max-width: 25%; height: auto; padding-right: 0;}",
-        "ul li img {max-width: 100%; object-fit: scale-down;}",
+        "ul li {max-width: 25%; height: auto; padding-right: 0; display: flex; justify-content: cemter; align-items: center;}",
+        "ul li img {max-width: 150px; object-fit: scale-down;}",
+        "h4 {font-size: 20px;}",
         "@media (max-width: 768px) {ul li {max-width: 100%; }}"
       ],
       "settings": {
