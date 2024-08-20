@@ -285,7 +285,11 @@
         "collapsible_row_67TcNF"
       ],
       "custom_css": [
-
+        ".accordion summary {justify-content: center;}",
+        ".accordion {margin: 0 !important; display: none;}",
+        "summary {display: flex; justify-content: space-betwen; width: 200px; margin: 10px auto; padding: 12px 16px; font-size: 14px; border-radius: 4px; color: #fff; background-color: #000; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); list-style: none;}",
+        ".collapsible-content__wrapper {padding: 0 !important;}",
+        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25%; }}"
       ],
       "settings": {
         "caption": "",
