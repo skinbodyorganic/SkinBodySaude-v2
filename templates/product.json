@@ -33,7 +33,8 @@
       "custom_css": [
         "h2,p {text-align: left;}",
         ".imgalignmiddle {background: #000;}",
-        ".global-media-settings {border: none;}"
+        ".global-media-settings {border: none;}",
+        ".col-12 {padding: 0;}"
       ],
       "settings": {
         "color_scheme": "background-1",
