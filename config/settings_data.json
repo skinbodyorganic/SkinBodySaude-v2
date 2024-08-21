@@ -146,9 +146,7 @@
           "4b76336a-e19a-4980-8af4-9ef1e042aae2",
           "66a41840-6d2b-4bc7-a349-eb1b5fbad4f0"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "home_only": false,
           "mobile_bar": true,
@@ -699,15 +697,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "50817223060279217279": {
         "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-popup\/bf2eea72-0400-4db1-8908-44b7418f9a88",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -719,15 +714,13 @@
           "blocks": {
             "announcement-bar-0": {
               "type": "announcement",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -742,8 +735,7 @@
           "blocks": {
             "footer-0": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "footer-1": {
               "type": "link_list",
@@ -772,13 +764,11 @@
         },
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {
-          }
+          "settings": {}
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }

@@ -5764,6 +5764,16 @@ button#checkout { display:none !important; }
     align-items: center;
   }
 }
+/* Produtos Renato */
+.btn-sumit-product {
+    background-color: black; 
+    color: white; 
+    /* border: solid 1px #000;  */
+    text-transform: uppercase; 
+    font-weight: bold;
+    padding: 1rem;
+    width: 76%;
+}
 /* KITS DE PRODUTOS */
 .kit-swatches {
     display: grid;
@@ -5961,3 +5971,28 @@ button#checkout { display:none !important; }
       color: #e76d00;
   }
   
+/* INTERFACE DE COMPRAS PRODUTO  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

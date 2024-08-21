@@ -643,37 +643,29 @@
 
                     {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
-                        <div class="product-form__buttons">
-                            <button
-                            type="submit"
-                            name="add"
-                            class="product-form__submit button button--primary btn-block" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %} style="border-color: #000; color: #000; border: solid 1px; text-transform: uppercase;font-weight: bold;">
-                                <span>
-                                {%- if product.selected_or_first_available_variant.available -%}
-                                {{ 'products.product.add_to_cart' | t }}
-                                {%- else -%}
-                                {{ 'products.product.sold_out' | t }}
-                                {%- endif -%}
-                                </span>
-                                <div class="loading-overlay__spinner hidden">
-                                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                                    </svg>
-                                </div>
-                            </button>
-                            {%- if block.settings.show_dynamic_checkout -%}
-                            {{ form | payment_button }}
-                            {%- else -%}
-                              <button
-                            type="submit"
-                            name="add"
-                            class="product-form__submit button button--primary btn-block" style="font-weight: bold; border-color: #000; border: solid 1px; color: #fff; background-color: #1fcb5a; text-transform: uppercase;">
-                                <span>
-                                  COMPRAR AGORA
-                                </span>
-                            </button>
-                            {%- endif -%}
+                    {% comment %} alteração feita por Renato {% endcomment %}
+                    <div class="product-form__buttons product-form-btn-marging">
+                      <button
+                        type="submit"
+                        name="add"
+                        class="product-form__submit button btn-block btn-sumit-product"
+                        {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                        >
+                        <span>
+                          {%- if product.selected_or_first_available_variant.available -%}
+                            Comprar Agora
+                          {%- else -%}
+                            {{ 'products.product.sold_out' | t }}
+                          {%- endif -%}
+                        </span>
+                        <div class="loading-overlay__spinner hidden">
+                          <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
                         </div>
+                      </button>
+                    </div>
+                    
                     {%- endform -%}
                 </product-form>
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
