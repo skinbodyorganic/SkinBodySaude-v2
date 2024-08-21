@@ -35,10 +35,10 @@
         ".imgalignmiddle {background: #000;}",
         ".global-media-settings {border: none;}",
         ".wbimg_txt_flex {display: flex; flex-wrap: wrap; width: 100%; margin: 0; padding: 0;}",
-        ".wbimgtxt_left, .wbimgtxt_right {flex: 1; width: 100%;}",
+        ".wbimgtxt_left,.wbimgtxt_right {flex: 1; width: 100%;}",
         ".wbimg_txtimg {width: 100%;}",
         ".wbimgtxt_right {display: flex; flex-direction: column; justify-content: center; padding: 10px; \/* Ajuste o padding conforme necessário *\/}",
-        ".wbimgtxt_right h2, .wbimgtxt_right p {margin: 0;}"
+        ".wbimgtxt_right h2,.wbimgtxt_right p {margin: 0;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -50,7 +50,7 @@
         "Horizontal_alignment": "center",
         "mobile_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "main": {
