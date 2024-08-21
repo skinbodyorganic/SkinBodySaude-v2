@@ -31,7 +31,7 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        ".wbimgtxt_right {text-align: left; padding: 2.5rem}",
+        ".wbimgtxt_right {text-align: left; padding: 2.5rem;}",
         ".imgalignmiddle {background: #000;}",
         ".global-media-settings {border: none;}",
         ".wbimg_txt_flex {width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}",
@@ -72,9 +72,21 @@
             "pdesc_title": ""
           }
         },
+        "text_ka7TPj": {
+          "type": "text",
+          "settings": {
+            "text": "A partir de R$ 67,98 por mês"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "share_pinpNW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         },
         "variant_picker": {
@@ -84,15 +96,10 @@
             "show_colorswatch": true
           }
         },
-        "7bc1714c-9d6a-4368-b677-08b46b8dee8a": {
-          "type": "stock_countdown",
+        "buy_buttons_APU389": {
+          "type": "buy_buttons",
           "settings": {
-            "max_stock": 150,
-            "limited_stock_cut_off": 10,
-            "limited_stock_message": "Only {stock_number} units left",
-            "instock_message": "In stock ({stock_number} units), ready to be shipped",
-            "limited_stock_color": "#ff0000",
-            "in_stock_color": "#008a00"
+            "show_dynamic_checkout": true
           }
         }
       },
@@ -100,9 +107,11 @@
         "title",
         "75951c32-13e5-42b3-8df4-bb2cace9d37a",
         "description",
+        "text_ka7TPj",
         "price",
+        "share_pinpNW",
         "variant_picker",
-        "7bc1714c-9d6a-4368-b677-08b46b8dee8a"
+        "buy_buttons_APU389"
       ],
       "custom_css": [
         ".product__info-container {border: none;}"
