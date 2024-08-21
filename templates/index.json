@@ -1,270 +1,490 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "ffc51145-e497-455d-bb5e-b7c4421db66c": {
-            "type": "top-product",
-            "blocks": {
-                "template--15916674252957__ffc51145-e497-455d-bb5e-b7c4421db66c-1665480682534a0960-0": {
-                    "type": "collection",
-                    "settings": {
-                        "cat_name": "Featured",
-                        "collection": "frontpage",
-                        "products_to_show": 6,
-                        "show_view_all": false,
-                        "view_all_style": "solid"
-                    }
-                }
-            },
-            "block_order": [
-                "template--15916674252957__ffc51145-e497-455d-bb5e-b7c4421db66c-1665480682534a0960-0"
-            ],
-            "custom_css": [
-                ".product-tab-item {display: none;}"
-            ],
-            "settings": {
-                "m_title": "Our product",
-                "heading_size": "h2",
-                "rows": 1,
-                "image_ratio": "adapt",
-                "display_product_type": false,
-                "show_rating": true,
-                "show_secondary_image": false,
-                "show_vendor": false,
-                "enable_quick_add": false,
-                "show_variants": false,
-                "picker_type": "button",
-                "show_colorswatch": true,
-                "padding_top": 60,
-                "padding_bottom": 4
-            }
-        },
-        "c18a13b3-652a-4534-ade0-a71d733121f7": {
-            "type": "image-gallery",
-            "blocks": {
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-2": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/the_body.jpg",
-                        "link": "shopify:\/\/collections\/watch"
-                    }
-                },
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-0": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/eros_libid.jpg",
-                        "link": "shopify:\/\/collections\/electronic"
-                    }
-                },
-                "image_LTp6hw": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/05_3c59d33f-8e8b-493d-8a5b-fba4dc065e64.png",
-                        "link": ""
-                    }
-                },
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-1": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/muscle_hmb.jpg",
-                        "link": "shopify:\/\/collections\/fashion"
-                    }
-                }
-            },
-            "block_order": [
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-2",
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-0",
-                "image_LTp6hw",
-                "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-1"
-            ],
-            "custom_css": [
-                ".heading {text-align: center;}"
-            ],
-            "settings": {
-                "m_title": "JÁ ESCOLHEU SEU SUPLEMENTO ?",
-                "heading_size": "h2",
-                "image_height": "adapt",
-                "padding_top": 60,
-                "padding_bottom": 0
-            }
-        },
-        "image_gallery_F4bnGB": {
-            "type": "image-gallery",
-            "blocks": {
-                "image_8pa8Lb": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/01_d74b2920-911f-4b69-aa1a-d2e5be6dbc7f.jpg",
-                        "link": ""
-                    }
-                },
-                "image_EjnNT7": {
-                    "type": "image",
-                    "settings": {
-                        "image": "shopify:\/\/shop_images\/02_ee36d46d-5b99-48ae-90b9-75cc560d64fd.jpg",
-                        "link": ""
-                    }
-                }
-            },
-            "block_order": [
-                "image_8pa8Lb",
-                "image_EjnNT7"
-            ],
-            "custom_css": [
-                ".cless {width: 40%;}",
-                ".section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}"
-            ],
-            "settings": {
-                "m_title": "",
-                "heading_size": "h0",
-                "image_height": "adapt",
-                "padding_top": 52,
-                "padding_bottom": 0
-            }
-        },
-        "text_with_icons_cRdYLy": {
-            "type": "text-with-icons",
-            "blocks": {
-                "image_cbJ7Rz": {
-                    "type": "image",
-                    "settings": {
-                        "icon1": "support",
-                        "title": "Dados Pessoais",
-                        "text": "<p>São totalmente sigilosos e não são compartilhados.<\/p>"
-                    }
-                },
-                "image_FLUEE4": {
-                    "type": "image",
-                    "settings": {
-                        "icon1": "gift",
-                        "title": "Site Confiável",
-                        "text": "<p>Monitorado todo o tempo por empresas de segurança digital.<\/p>"
-                    }
-                },
-                "image_hGPRKJ": {
-                    "type": "image",
-                    "settings": {
-                        "icon1": "delivery",
-                        "title": "Prazo de Entrega",
-                        "text": "<p>Leva de 5 a 15 dias úteis a depender da escolha do serviço de transporte: PAC, SEDEX ou JadLog.<\/p>"
-                    }
-                },
-                "image_4aMJD8": {
-                    "type": "image",
-                    "settings": {
-                        "icon1": "service",
-                        "title": "Dados Financeiros",
-                        "text": "<p>Seus dados gravados em ambiente 100% seguro.<\/p>"
-                    }
-                }
-            },
-            "block_order": [
-                "image_cbJ7Rz",
-                "image_FLUEE4",
-                "image_hGPRKJ",
-                "image_4aMJD8"
-            ],
-            "custom_css": [
-                ".heading {text-align: center;}"
-            ],
-            "settings": {
-                "title": "AQUI SUA COMPRA É 100% SEGURA !",
-                "heading_size": "h0",
-                "iconwidth": 65,
-                "column_alignment": "center",
-                "padding_top": 60,
-                "padding_bottom": 60
-            }
-        },
-        "custom_liquid_UALKME": {
-            "type": "custom-liquid",
-            "custom_css": [
-                ".block_destination_slide {}"
-            ],
-            "settings": {
-                "custom_liquid": "<!--==============================\n\t    All CSS File\n\t============================== -->\n    <!-- Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/bootstrap.min.css?v=1721839960\">\n    <!-- Swiper css -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/swiper-bundle.min.css?v=1721840023\">\n    <!-- Theme Custom CSS -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/style.css?v=1721933599\">    \n\n\n<!--==============================\ndestination Area  \n==============================-->\n\n    <h2 class=\"heading text-left h0\" style=\"text-align: center;\"><span>PRÓXIMOS LANÇAMENTOS<\/span><\/h2>\n\n    <div class=\"destination-area position-relative overflow-hidden block_destination_slide\">\n        <div class=\"container\">\n            <div class=\"swiper th-slider destination-slider\" id=\"aboutSlider1\" data-slider-options='{\"breakpoints\":{\"0\":{\"slidesPerView\":1},\"576\":{\"slidesPerView\":\"2\"},\"992\":{\"slidesPerView\":\"3\"},\"1200\":{\"slidesPerView\":\"3\"}},\"effect\":\"coverflow\",\"coverflowEffect\":{\"rotate\":\"0\",\"stretch\":\"95\",\"depth\":\"212\",\"modifier\":\"1\"},\"centeredSlides\":\"true\"}'>\n                <div class=\"swiper-wrapper\">\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/04_7ca11a74-93e8-4413-8ad9-d9f5d3115aa3.jpg?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/03_338211c0-edc0-48ad-9c4d-9755dd6adfb5.jpg?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/01_12635741-0355-4fc0-b99d-93364b971192.jpg?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/05_8f896542-057e-4bb2-ac37-b1d6ad417bc0.png?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_FEMINI.png?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_ENERGY.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_PLUS.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\t\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_BLEND.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\t\t\t\t\t\t\n\t\t\t\t\t\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n\n\n\n\n\n\t\n    <!--==============================\n    All Js File\n============================== -->\n    <!-- Jquery -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/jquery-3.6.0.min.js?v=1721840098\"><\/script>\n    <!-- Swiper Js -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/swiper-bundle.min.js?v=1721840137\"><\/script>\n    <!-- Main Js File -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/main.js?v=1721840162\"><\/script>",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "custom_liquid_JecUgB": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "<iframe id=\"ytplayer\" type=\"text\/html\" width=\"100%\" height=\"630\"\nsrc=\"https:\/\/www.youtube.com\/embed\/zZkW1SqKhCA?si=cu1EvmgIBldm1F5e?version=3&showinfo=0&loop=1&autoplay=1&controls=0&disablekb=1&fs=0\"\nframeborder=\"0\" allowfullscreen>",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "video_UPKDXh": {
-            "type": "video",
-            "custom_css": [
-                ".video-section__media {width: 100%;}"
-            ],
-            "settings": {
-                "heading": "",
-                "cover_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-29_at_12.46.52.jpg",
-                "video_url": "https:\/\/youtu.be\/zZkW1SqKhCA?si=dyZv7B6TWS4tnqSS",
-                "description": "",
-                "full_width": true,
-                "color_scheme": "background-1",
-                "padding_top": 0,
-                "padding_bottom": 0
-            }
-        },
-        "rich_text_ym4nUX": {
-            "type": "rich-text",
-            "blocks": {
-                "heading_7m3jWT": {
-                    "type": "heading",
-                    "settings": {
-                        "heading": "<h2><strong>Skin & Body Organic:<\/strong><\/h2>",
-                        "heading_size": "h2"
-                    }
-                },
-                "text_kqtPJK": {
-                    "type": "text",
-                    "settings": {
-                        "text": "<p>Seu Caminho para uma Vida Saudável e Equilibrada.<br\/>Bem-vindo ao mundo da Skin & Body Organic, uma empresa apaixonada em promover a saúde e o bem-estar de maneira segura e eficaz.Movidos pela paixão pelo bem-estar humano, excelência física e respeito pela natureza, estamos comprometidos em todas as etapas. Oferecendo soluções de alta qualidade para homens e mulheres de todas as idades.<\/p><p><strong>Nossos Produtos: A Ciência da Natureza a Seu Favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>"
-                    }
-                },
-                "button_Umye3C": {
-                    "type": "button",
-                    "settings": {
-                        "button_label": "Button label",
-                        "button_link": "",
-                        "button_style_secondary": false,
-                        "button_label_2": "",
-                        "button_link_2": "",
-                        "button_style_secondary_2": false
-                    }
-                }
-            },
-            "block_order": [
-                "heading_7m3jWT",
-                "text_kqtPJK",
-                "button_Umye3C"
-            ],
-            "custom_css": [
-                ".rich-text__blocks {text-align: left;}"
-            ],
-            "settings": {
-                "desktop_content_position": "center",
-                "content_alignment": "center",
-                "color_scheme": "background-1",
-                "full_width": true,
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
+  "sections": {
+    "ffc51145-e497-455d-bb5e-b7c4421db66c": {
+      "type": "top-product",
+      "blocks": {
+        "template--15916674252957__ffc51145-e497-455d-bb5e-b7c4421db66c-1665480682534a0960-0": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "Featured",
+            "collection": "produtos",
+            "products_to_show": 6,
+            "show_view_all": false,
+            "view_all_style": "solid"
+          }
         }
+      },
+      "block_order": [
+        "template--15916674252957__ffc51145-e497-455d-bb5e-b7c4421db66c-1665480682534a0960-0"
+      ],
+      "custom_css": [
+        ".product-tab-item {display: none;}"
+      ],
+      "settings": {
+        "m_title": "Our product",
+        "heading_size": "h2",
+        "rows": 1,
+        "image_ratio": "adapt",
+        "display_product_type": false,
+        "show_rating": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "enable_quick_add": false,
+        "show_variants": false,
+        "picker_type": "button",
+        "show_colorswatch": true,
+        "padding_top": 60,
+        "padding_bottom": 4
+      }
     },
-    "order": [
-        "ffc51145-e497-455d-bb5e-b7c4421db66c",
-        "c18a13b3-652a-4534-ade0-a71d733121f7",
-        "image_gallery_F4bnGB",
-        "text_with_icons_cRdYLy",
-        "custom_liquid_UALKME",
-        "custom_liquid_JecUgB",
-        "video_UPKDXh",
-        "rich_text_ym4nUX"
-    ]
+    "c18a13b3-652a-4534-ade0-a71d733121f7": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_ecea6db8-0173-480b-8759-b0e417eeb8d1.jpg",
+            "link": "shopify:\/\/collections\/watch"
+          }
+        },
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EROS_ENERGY.png",
+            "link": "shopify:\/\/collections\/electronic"
+          }
+        },
+        "image_LTp6hw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EROS_BLEND.png",
+            "link": ""
+          }
+        },
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EROS_PLUS.png",
+            "link": "shopify:\/\/collections\/fashion"
+          }
+        }
+      },
+      "block_order": [
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-2",
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-0",
+        "image_LTp6hw",
+        "template--15916674252957__c18a13b3-652a-4534-ade0-a71d733121f7-16654884927f8c3e9b-1"
+      ],
+      "custom_css": [
+        ".heading {text-align: center;}",
+        ".rless {display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; \/* Para navegadores Firefox *\/}",
+        ".rless::-webkit-scrollbar {display: none; \/*navegadores baseados em WebKit, como Chrome e Safari *\/}",
+        ".rless > * {scroll-snap-align: start;}"
+      ],
+      "settings": {
+        "m_title": "JÁ ESCOLHEU SEU SUPLEMENTO?",
+        "heading_size": "h1",
+        "image_height": "adapt",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "image_gallery_F4bnGB": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_8pa8Lb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_9daf1d83-2cf9-4696-8f93-ab5d18bd878b.jpg",
+            "link": ""
+          }
+        },
+        "image_EjnNT7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_d30bf396-75ef-4524-9852-e827bc062b68.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8pa8Lb",
+        "image_EjnNT7"
+      ],
+      "custom_css": [
+        ".cless {width: 40%;}",
+        " \/* .section-template--23164288041248__image_gallery_F4bnGB-padding {margin-left: 20%;}",
+        " *\/.rless {display: flex; justify-content: center;}",
+        "@media screen and (max-width: 767px) {.rless {display: none !important; }}"
+      ],
+      "settings": {
+        "m_title": "",
+        "heading_size": "h0",
+        "image_height": "adapt",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "text_with_icons_cRdYLy": {
+      "type": "text-with-icons",
+      "blocks": {
+        "image_cbJ7Rz": {
+          "type": "image",
+          "settings": {
+            "icon1": "support",
+            "title": "Dados Pessoais",
+            "text": "<p>São totalmente sigilosos e não são compartilhados.<\/p>"
+          }
+        },
+        "image_FLUEE4": {
+          "type": "image",
+          "settings": {
+            "icon1": "gift",
+            "title": "Site Confiável",
+            "text": "<p>Monitorado todo o tempo por empresas de segurança digital.<\/p>"
+          }
+        },
+        "image_hGPRKJ": {
+          "type": "image",
+          "settings": {
+            "icon1": "delivery",
+            "title": "Prazo de Entrega",
+            "text": "<p>Leva de 5 a 15 dias úteis a depender da escolha do serviço de transporte: PAC, SEDEX ou JadLog.<\/p>"
+          }
+        },
+        "image_4aMJD8": {
+          "type": "image",
+          "settings": {
+            "icon1": "service",
+            "title": "Dados Financeiros",
+            "text": "<p>Seus dados gravados em ambiente 100% seguro.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_cbJ7Rz",
+        "image_FLUEE4",
+        "image_hGPRKJ",
+        "image_4aMJD8"
+      ],
+      "custom_css": [
+        ".heading {text-align: center;}"
+      ],
+      "settings": {
+        "title": "AQUI SUA COMPRA É 100% SEGURA !",
+        "heading_size": "h0",
+        "iconwidth": 65,
+        "column_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "custom_liquid_UALKME": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".block_destination_slide {}"
+      ],
+      "settings": {
+        "custom_liquid": "<!--==============================\n\t    All CSS File\n\t============================== -->\n    <!-- Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/bootstrap.min.css?v=1721839960\">\n    <!-- Swiper css -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/swiper-bundle.min.css?v=1721840023\">\n    <!-- Theme Custom CSS -->\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/style.css?v=1721933599\">    \n\n\n<!--==============================\ndestination Area  \n==============================-->\n\n    <h2 class=\"heading text-left h0\" style=\"text-align: center;\"><span>PRÓXIMOS LANÇAMENTOS<\/span><\/h2>\n\n    <div class=\"destination-area position-relative overflow-hidden block_destination_slide\">\n        <div class=\"container\">\n            <div class=\"swiper th-slider destination-slider\" id=\"aboutSlider1\" data-slider-options='{\"breakpoints\":{\"0\":{\"slidesPerView\":1},\"576\":{\"slidesPerView\":\"2\"},\"992\":{\"slidesPerView\":\"3\"},\"1200\":{\"slidesPerView\":\"3\"}},\"effect\":\"coverflow\",\"coverflowEffect\":{\"rotate\":\"0\",\"stretch\":\"95\",\"depth\":\"212\",\"modifier\":\"1\"},\"centeredSlides\":\"true\"}'>\n                <div class=\"swiper-wrapper\">\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/04_7ca11a74-93e8-4413-8ad9-d9f5d3115aa3.jpg?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/03_338211c0-edc0-48ad-9c4d-9755dd6adfb5.jpg?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/01_12635741-0355-4fc0-b99d-93364b971192.jpg?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n                    <div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/05_8f896542-057e-4bb2-ac37-b1d6ad417bc0.png?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_FEMINI.png?v=1722472402\" alt=\"destination image\">\n\t\t\t\t\t\t\t\t<div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_ENERGY.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_PLUS.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\t\n\t\t\t\t\t<div class=\"swiper-slide\">\n                        <div class=\"destination-box gsap-cursor\">\n                            <div class=\"destination-img\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/EROS_BLEND.png?v=1722472402\" alt=\"destination image\">\n                                <div class=\"destination-content\">\n                                    <div class=\"media-left\">\n                                        <h4 class=\"box-title\">\n                                            <a href=\"destination-details.html\"><\/a>\n                                        <\/h4>\n                                        <span class=\"destination-subtitle\"><\/span>\n                                    <\/div>\n                                    <div class=\"\">\n                                        <!-- <a href=\"\" class=\"th-btn style2 th-icon\"><\/a> -->\n                                    <\/div>\n                                <\/div>\n                            <\/div>\n                        <\/div>\n                    <\/div>\t\t\t\t\t\t\n\t\t\t\t\t\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n\n\n\n\n\n\t\n    <!--==============================\n    All Js File\n============================== -->\n    <!-- Jquery -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/jquery-3.6.0.min.js?v=1721840098\"><\/script>\n    <!-- Swiper Js -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/swiper-bundle.min.js?v=1721840137\"><\/script>\n    <!-- Main Js File -->\n    <script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/3162\/1152\/files\/main.js?v=1721840162\"><\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_JecUgB": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media only screen and (max-width: 750px) {.video-container {width: 100%; height: auto !important; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"video-container\" style=\"height: 630px;\">\n    <iframe id=\"ytplayer\" class=\"youtube_skin\" type=\"text\/html\" width=\"100%\" height=\"100%\"\n    src=\"https:\/\/www.youtube.com\/embed\/zZkW1SqKhCA?autoplay=1&mute=1&loop=1&controls=0&disablekb=1&fs=0&showinfo=0&playlist=zZkW1SqKhCA\"\n    frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.video-container {\n    position: relative;\n    width: 100%;\n    padding-bottom: 56.25%; \/* Mantém a proporção 16:9 *\/\n    height: 0;\n}\n\n#ytplayer {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n@media only screen and (max-width: 750px) {\n  .video-container {\n    height: auto;\n    padding-bottom: 56.25%;\n  }\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_UPKDXh": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/maxresdefault.jpg",
+        "video_url": "https:\/\/youtu.be\/zZkW1SqKhCA?si=dyZv7B6TWS4tnqSS",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_ym4nUX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7m3jWT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Skin & Body Organic<\/strong><\/h2>",
+            "heading_size": "h2"
+          }
+        },
+        "text_kqtPJK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seu Caminho para uma Vida Saudável e Equilibrada.<br\/>Bem-vindo ao mundo da Skin & Body Organic, uma empresa apaixonada em promover a saúde e o bem-estar de maneira segura e eficaz.Movidos pela paixão pelo bem-estar humano, excelência física e respeito pela natureza, estamos comprometidos em todas as etapas. Oferecendo soluções de alta qualidade para homens e mulheres de todas as idades.<\/p><p><\/p>"
+          }
+        },
+        "text_V6iDhx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nossos produtos: A ciência da natureza a seu favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7m3jWT",
+        "text_kqtPJK",
+        "text_V6iDhx"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {text-align: left;}",
+        ".rte p strong {font-family: var(--body-font); color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700;}",
+        "@media screen and (max-width: 767px) {.rich-text__blocks > div:last-child {display: none !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_wcFUQg": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_67TcNF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ver mais",
+            "icon": "none",
+            "row_content": "<p><strong>Nossos Produtos: A Ciência da Natureza a Seu Favor <\/strong><\/p><p>É nosso compromisso promover a saúde e a vitalidade, formulamos produtos inovadores que aproveitam os benefícios da natureza para melhorar a qualidade de vida. <\/p><p>Combinamos ingredientes naturais, fórmulas avançadas e pesquisas científicas para criar produtos que realmente fazem a diferença. É através dessa abordagem que nasceram Eros e The Body. <\/p><p>Nossos ingredientes são importados, garantindo a origem de qualidade. As proteínas são puras, provenientes da natureza, sem aditivos. O resultado é uma linha de produtos com excelente qualidade e sabor.<\/p><p>Nossa missão é simples, mas poderosa: capacitamos você a conquistar a sua melhor versão e desfrutar de uma vida equilibrada.<\/p><p>Escolha Skin & Body Organic para iniciar a sua jornada de saúde e bem-estar. <\/p><p>Acreditamos que sua saúde é valiosa, e nosso compromisso é fornecer os recursos para ajudá-lo a viver a vida em sua plenitude.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_67TcNF"
+      ],
+      "custom_css": [
+        ".accordion summary {justify-content: center;}",
+        ".accordion {margin: 0 !important; display: none;}",
+        "summary {display: flex; justify-content: space-betwen; width: 200px; margin: 10px auto; padding: 12px 16px; font-size: 14px; border-radius: 4px; color: #fff; background-color: #000; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); list-style: none;}",
+        ".collapsible-content__wrapper {padding: 0 !important;}",
+        "@media screen and (max-width: 767px) {.accordion {display: block !important; } .collapsible-content__wrapper {margin-top: -25%; margin-bottom: 25%; }}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_pMBAmW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eTqmLm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Questionário Inicial",
+            "icon": "none",
+            "row_content": "<p>Ao demonstrar interesse em adquirir Eros Plus ou Eros Blend, você receberá um questionário detalhado. Esse questionário é fundamental para entendermos seu histórico de saúde e suas necessidades específicas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QR6qaX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Consulta Online",
+            "icon": "none",
+            "row_content": "<p>Após o envio do questionário, você será agendado para uma consulta online com o médico especialista responsável <strong>Dr Romulo Cruz, CRM-MA 4953\/CRM-TO 2039. <\/strong>Durante essa consulta, o médico avaliará suas respostas e discutirá suas metas e condições de saúde.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MEbgGy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Receita Médica",
+            "icon": "none",
+            "row_content": "<p>Caso o médico aprove o uso de Eros Plus ou Eros Blend, ele emitirá uma receita médica que será enviada por e-mail ou Whatsapp. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CwDgpw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Processamento e Envio",
+            "icon": "none",
+            "row_content": "<p>Com a receita médica em mãos, nossa equipe irá preparar seu pedido com todo o cuidado e rigor necessários. Seu produto será enviado diretamente para você, seguindo todos os padrões de segurança e qualidade.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FWQfXw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eTqmLm",
+        "collapsible_row_QR6qaX",
+        "collapsible_row_MEbgGy",
+        "collapsible_row_CwDgpw",
+        "collapsible_row_FWQfXw"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "Collapsible content",
+        "heading": "Collapsible content",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main_faq_KbHgUq": {
+      "type": "main-faq",
+      "blocks": {
+        "rich_text_Ktk6wb": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Para sua segurança",
+            "text": "<p>Na Skin & Body Supplements, oferecemos produtos de alta qualidade para melhorar sua saúde e bem-estar. Entre nossos produtos, destacam-se Eros Plus e Eros Blend, ambos formulados para proporcionar benefícios excepcionais. No entanto, para garantir sua segurança e a melhor eficácia, a venda desses produtos só é realizada mediante consulta online e receita médica.<\/p><p><strong>Como Funciona<\/strong><\/p>",
+            "align_text": "left"
+          }
+        },
+        "question_KFBnjV": {
+          "type": "question",
+          "settings": {
+            "title": "Questionário Inicial",
+            "text": "<p>Ao demonstrar interesse em adquirir Eros Plus ou Eros Blend, você receberá um questionário detalhado. Esse questionário é fundamental para entendermos seu histórico de saúde e suas necessidades específicas.<\/p>"
+          }
+        },
+        "question_bFRRzF": {
+          "type": "question",
+          "settings": {
+            "title": "Consulta Online",
+            "text": "<p>Após o envio do questionário, sua avaliação será cuidadosamente revisada. Caso o médico identifique alguma alteração relevante nas suas respostas, você será contactado para uma consulta online com o <strong>Dr. Rômulo Cruz, CRM-MA 4953\/CRM-TO 2039<\/strong>, nosso especialista responsável. Durante essa consulta, o Dr. Rômulo discutirá suas condições de saúde e orientará sobre o tratamento mais adequado para você.<\/p>"
+          }
+        },
+        "question_NCm8wd": {
+          "type": "question",
+          "settings": {
+            "title": "Receita Médica",
+            "text": "<p>Caso o médico aprove o uso de Eros Plus ou Eros Blend, ele emitirá uma receita médica que será enviada por e-mail ou Whatsapp. <\/p>"
+          }
+        },
+        "question_AHXH7D": {
+          "type": "question",
+          "settings": {
+            "title": "Envio",
+            "text": "<p>Com a receita médica em mãos, nossa equipe irá preparar seu pedido com todo o cuidado e rigor necessários. Seu produto será enviado diretamente para você, seguindo todos os padrões de segurança e qualidade.<\/p>"
+          }
+        },
+        "rich_text_DX7pDT": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>Este produto é manipulado especialmente para atender às necessidades individuais de cada cliente. O processo de manipulação é supervisionado pelo farmacêutico responsável, <strong>Fábio Marcos Abreu Feliciano, CRF: 89527<\/strong>, garantindo a qualidade e a segurança do seu tratamento personalizado<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_Ktk6wb",
+        "question_KFBnjV",
+        "question_bFRRzF",
+        "question_NCm8wd",
+        "question_AHXH7D",
+        "rich_text_DX7pDT"
+      ],
+      "custom_css": [
+        ".h2 {font-family: var(--body-font); margin: 0 0 18px; color: var(--body-color); line-height: 1.75; font-size: 16px; font-weight: 700;}",
+        ".collapsed {font-family: Inter, sans-serif; color: #333; margin-bottom: 0;}",
+        ".wbfaqpart {max-width: 78rem; position: relative; padding: 0 15px; margin-right: auto; margin-left: auto;}",
+        ".collapse {padding: 12px 0 12px 12px; background: #dfdfdf;}"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_bDi7CH": {
+      "type": "rich-text",
+      "blocks": {
+        "button_LACaCW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Formulário Médico",
+            "button_link": "https:\/\/form.respondi.app\/kzh5XmXP",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_LACaCW"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "ffc51145-e497-455d-bb5e-b7c4421db66c",
+    "c18a13b3-652a-4534-ade0-a71d733121f7",
+    "image_gallery_F4bnGB",
+    "text_with_icons_cRdYLy",
+    "custom_liquid_UALKME",
+    "custom_liquid_JecUgB",
+    "video_UPKDXh",
+    "rich_text_ym4nUX",
+    "collapsible_content_wcFUQg",
+    "collapsible_content_pMBAmW",
+    "main_faq_KbHgUq",
+    "rich_text_bDi7CH"
+  ]
 }

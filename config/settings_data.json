@@ -1,1 +1,793 @@
-{"current":{"colors_accent_1":"#ffffff","gradient_accent_1":"","colors_accent_2":"#777777","colors_text":"#939393","colors_outline_button_labels":"#939393","colors_background_1":"#fafafa","colors_background_2":"#FFFFFF","wbmainclr":"#939393","type_header_font":"montserrat_n4","type_body_font":"montserrat_n4","body_scale":100,"page_width":1600,"buttons_border_thickness":1,"buttons_border_opacity":100,"buttons_radius":6,"buttons_shadow_opacity":0,"buttons_shadow_horizontal_offset":0,"buttons_shadow_vertical_offset":0,"buttons_shadow_blur":0,"variant_pills_border_thickness":1,"variant_pills_border_opacity":20,"variant_pills_radius":0,"variant_pills_shadow_opacity":0,"variant_pills_shadow_horizontal_offset":0,"variant_pills_shadow_vertical_offset":0,"variant_pills_shadow_blur":0,"inputs_border_thickness":1,"inputs_border_opacity":10,"inputs_radius":6,"inputs_shadow_horizontal_offset":0,"inputs_shadow_blur":0,"card_style":"standard","card_image_padding":0,"card_text_alignment":"center","card_color_scheme":"background-2","card_border_thickness":0,"card_border_opacity":10,"card_corner_radius":0,"card_shadow_opacity":0,"text_boxes_border_thickness":0,"media_border_thickness":1,"media_border_opacity":5,"media_radius":6,"media_shadow_opacity":0,"media_shadow_horizontal_offset":0,"media_shadow_vertical_offset":0,"media_shadow_blur":0,"popup_border_thickness":1,"popup_border_opacity":10,"popup_corner_radius":6,"popup_shadow_opacity":0,"popup_shadow_horizontal_offset":0,"popup_shadow_vertical_offset":0,"popup_shadow_blur":0,"drawer_border_thickness":1,"drawer_shadow_opacity":0,"drawer_shadow_horizontal_offset":0,"drawer_shadow_vertical_offset":0,"drawer_shadow_blur":0,"badge_corner_radius":0,"sale_badge_color_scheme":"background-2","sold_out_badge_color_scheme":"background-1","accent_icons":"text","social_twitter_link":"","social_facebook_link":"https:\/\/www.facebook.com\/coxinhaeciapalmas.to\/","social_pinterest_link":"","social_instagram_link":"https:\/\/www.instagram.com\/skinbodysupplements\/","social_tiktok_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"https:\/\/www.youtube.com\/@SkinBodyOrganic","social_vimeo_link":"","predictive_search_enabled":false,"predictive_search_show_vendor":false,"predictive_search_show_price":false,"favicon":"shopify:\/\/shop_images\/Favicon.png","currency_code_enabled":false,"cart_type":"page","show_vendor":false,"show_cart_note":false,"wb_carticon":"wb_shopcart","wb_cartnumber":"wb_shopqty","show_shopicon":true,"wbenable_ship":false,"wbmin_order":0,"wbprogscolor":"#000000","upsellp":true,"wbuphead":"Customers also like","upsellcollection":"","upsellpempty":true,"upsell_to_show":2,"cart_drawer_collection":"frontpage","show_cartpayment":false,"show_timer":false,"timer_text":"date_2024\/09\/01","displaycustomizer":false,"wbboxed":false,"wb_enablewish":false,"checkout_logo_image":"shopify:\/\/shop_images\/logo.png","checkout_accent_color":"#fa414c","checkout_button_color":"#fa414c","spacing_grid_horizontal":20,"spacing_grid_vertical":4,"wboverlayhcolor":"#121212","wboverlayhbg":"#FFFFFF","wboverlayhoutline":"#FFFFFF","type_header_base_size":40,"type_base_size":14,"badge_toggle":true,"new_products_period":"2000","badge_position":"top left","colorSwatch":"","colorImg":"<p> heather-black.jpg, black.png, heather-gray.gif, white.png, red.png<\/p>","type_base_font":"Google+Poppins","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"4b76336a-e19a-4980-8af4-9ef1e042aae2":{"type":"announcement","settings":{"text":"FRETE GRÁTIS PARA COMPRAS ACIMA DE R$ 149,90","link":""}},"66a41840-6d2b-4bc7-a349-eb1b5fbad4f0":{"type":"announcement","settings":{"text":"LANÇAMENTO EM ATÉ 34% DE DESCONTO","link":""}}},"block_order":["4b76336a-e19a-4980-8af4-9ef1e042aae2","66a41840-6d2b-4bc7-a349-eb1b5fbad4f0"],"settings":{"home_only":false,"mobile_bar":true,"color_scheme":"inverse","auto_rotate":true,"change_slides_speed":3}},"header":{"type":"header","blocks":{"eaccb87a-7168-4006-bd52-469034a22e1c":{"type":"megamenu-product","settings":{"menuname":"new arrivals","showsubmenu":false,"collection":"latest-product","products_to_show":6}},"55d0341f-b43a-490b-9a67-ef52e5414661":{"type":"megamenu-gallery","settings":{"menuname":"shop","showsubmenu":true,"wb1_link":"shopify:\/\/collections\/men","wb1_text":"","wb2_link":"shopify:\/\/collections\/women","wb2_text":"","wb3_link":"shopify:\/\/collections\/accessories","wb3_text":"","wb4_link":"shopify:\/\/collections\/shoes","wb4_text":""}},"2b885d94-9dbc-4570-9274-59692ee5faaa":{"type":"megamenu-blog","settings":{"menuname":"News","showsubmenu":false,"blog":"news","blog_to_show":4}}},"block_order":["eaccb87a-7168-4006-bd52-469034a22e1c","55d0341f-b43a-490b-9a67-ef52e5414661","2b885d94-9dbc-4570-9274-59692ee5faaa"],"custom_css":[".wbheadtop {display: none;}","#Search-In-Modal,.field {background-color: #939393; border-radius: 25px; color: #fff;}","#Search-In-Modal {padding: 0 15px 0;}",".wr-menu {color: #000; background-image: none;}",".bar {background-color: #939393;}",".search__button {background-image: none;}","#svg_search_button {width: 30px; height: 30px;}",".wishlist {display: none;}",".svgbg {background-color: #939393;}",".svgbg:hover {background-color: #fff;}","nav > ul > li > a {color: #000 !important;}","span {font-weight: bold !important;}"],"settings":{"color_scheme":"accent-1","logo":"shopify:\/\/shop_images\/logo-skyn-dark.png","logo_width":128,"mobile_logo":"shopify:\/\/shop_images\/logo-skyn-dark.png","mobile_logo_width":110,"logo_position":"top-left","show_acicon":true,"color_schememenu":"background-1","color_dropmenu":"background-1","menu":"main-menu","secmenu":"main-menu","enable_sticky_header":true,"topbg_clr":"#939393","topc_clr":"#939393","topoffer":"","topemail":"","enable_country_selector":false,"enable_language_selector":false,"margin_bottom":0,"padding_top":18,"padding_bottom":18}},"footer":{"type":"footer","blocks":{"footer-1":{"type":"link_list","settings":{"heading":"Precisa de Ajuda ?","menu":"contato"}},"footer-0":{"type":"link_list","settings":{"heading":"Termos & Condições","menu":"footer"}},"image_iVmeiE":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/9b0eaa08-2b53-4892-b7db-53dd2698e306.jpg","image_width":400,"alignment":"center"}}},"block_order":["footer-1","footer-0","image_iVmeiE"],"custom_css":[".newsletter-form__button {color: #fff; background-color: #000;}"],"settings":{"wbfoot_bgcolor":"#ffffff","wbfoot_color":"#777777","wbfoot_hcolor":"#fa414c","logo":"shopify:\/\/shop_images\/background_1.png","logo_width":130,"conthead":"","contsubtext":"<p><strong>Nossa Promessa: Qualidade, Integridade e Resultados<\/strong><\/p><p>Na Skin & Body Organic, a qualidade e a integridade de nossos produtos são inegociáveis. Acreditamos em fornecer produtos naturais que realmente funcionam, sem comprometer sua saúde. Estamos comprometidos com a obtenção de resultados reais que melhoram a vida de nossos clientes.<br\/><strong><br\/>Horário de Atendimento On-line:<\/strong><br\/>Segunda a Sexta-Feira<br\/>das <strong>08:00 às 19:00<\/strong> horas.<br\/><br\/>CNPJ: 48.412.786\/0001-80<br\/><br\/>Avenida Copacabana, 325 - Alphaville Empresarial - 18 Forte, Barueri - SP 06472-001<\/p>","footer_address":"","footer_contact_no":"","footer_contact_id":"","enable_newsletter":true,"newsheading":"<b>Faça Parte da Lista Exclusiva<\/b> <br><h6>Receba descontos e novidades em primeira mão<\/h6>","social_head":"","show_social":true,"payment_enable":false,"show_copyright":true,"margin_top":60,"padding_top":32,"padding_bottom":32,"enable_follow_on_shop":false}},"main-password-header":{"type":"main-password-header","settings":{"logo":"shopify:\/\/shop_images\/logo.png","logo_max_width":160,"color_scheme":"background-1"}},"main-password-footer":{"type":"main-password-footer","settings":{"color_scheme":"background-1"}},"slideshow":{"type":"slideshow","blocks":{"2b986134-85fe-4ab3-b36a-42f81dc94671":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/3_-_Copia_de_01.jpg","subheading":"","heading":"","heading_size":"large","subheadingtext":"","button_label":"","link":"","box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"left"}},"f1d7d385-be74-41e3-87d4-32a5cfeb3698":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/2_-_Copia_de_02.jpg","subheading":"","heading":"","heading_size":"large","subheadingtext":"","button_label":"","link":"","box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"left"}},"slide_TFHtxT":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/03_e6caa762-55d1-4414-afe0-1b88c7b46dfb.jpg","subheading":"","heading":"","heading_size":"large","subheadingtext":"","button_label":"","link":"","box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"left"}},"slide_mxXfwR":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/04_5cd12344-56e5-4027-970e-a1de5e670778.jpg","subheading":"","heading":"","heading_size":"large","subheadingtext":"","button_label":"","link":"","box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"left"}},"slide_jN4Xqy":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/07.png","subheading":"","heading":"","heading_size":"large","subheadingtext":"","button_label":"","link":"","box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"left"}}},"block_order":["2b986134-85fe-4ab3-b36a-42f81dc94671","f1d7d385-be74-41e3-87d4-32a5cfeb3698","slide_TFHtxT","slide_mxXfwR","slide_jN4Xqy"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"dots","pagicolor":"#121212","auto_rotate":true,"change_slides_speed":3,"wboverlaycolor":"#ffffff","wboverlaybg":"#fa414c","wboverlayoutline":"#fa414c","wboverlayhcolor":"#ffffff","wboverlayhbg":"#121212","wboverlayhoutline":"#121212","padding_top":0,"padding_bottom":0}},"collection-list":{"type":"collection-list","custom_css":[".wbcolllist {display: none;}"],"settings":{"title":"JÁ ESCOLHEU SEU SUPLEMENTO ?","heading_size":"h2","image_ratio":"adapt","padding_top":48,"padding_bottom":0}},"text-with-icons":{"type":"text-with-icons","blocks":{"f26cbff1-1a5b-440e-b8a7-9234261a500c":{"type":"image","settings":{"icon1":"delivery","title":"Frete Grátis","text":"<p>Para compras acima de R$ 189,00<\/p>"}},"a0db24f3-f196-47fc-8727-90a2285c5aa1":{"type":"image","settings":{"icon1":"moneyback","title":"Pague no PIX","text":"<p>ou utilize seu cartão de crédito<\/p>"}},"f3ba6fce-4fcf-4e30-8087-c2939b16737c":{"type":"image","settings":{"icon1":"support","title":"Médico online","text":"<p>Para prescrição médica<\/p>"}},"294ca570-15f3-41d2-a88e-3c0a5e6a506b":{"type":"image","settings":{"icon1":"offer","title":"Compras em até 6x","text":"<p>Sem juros<\/p>"}}},"block_order":["f26cbff1-1a5b-440e-b8a7-9234261a500c","a0db24f3-f196-47fc-8727-90a2285c5aa1","f3ba6fce-4fcf-4e30-8087-c2939b16737c","294ca570-15f3-41d2-a88e-3c0a5e6a506b"],"settings":{"title":"","heading_size":"h1","iconwidth":40,"column_alignment":"center","padding_top":24,"padding_bottom":0}},"featured-blog":{"type":"featured-blog","settings":{"m_title":"Blog","heading_size":"h2","blog":"news","show_image":true,"image_height":"square","show_date":false,"show_author":false,"show_desc":true,"show_cmment":false,"show_view_all":false,"padding_top":24,"padding_bottom":4}},"logo-bar":{"type":"logo-bar","blocks":{"635b744a-a34b-4577-b05e-278bdbb9c950":{"type":"logo_image","settings":{"link":""}},"1dab223d-bfe2-4435-a307-a79f1d11130d":{"type":"logo_image","settings":{"link":""}},"9af468d1-e642-4322-b47e-3300663fb738":{"type":"logo_image","settings":{"link":""}},"d3da3920-eafe-4fdb-968a-95dbe3f8b5de":{"type":"logo_image","settings":{"link":""}},"46413027-e883-4058-b504-a70407bfe387":{"type":"logo_image","settings":{"link":""}},"27649f74-b8aa-49e2-99d2-50c3acb66e5e":{"type":"logo_image","settings":{"link":""}},"6149fef2-69a5-42fb-8a37-0ea58afc8506":{"type":"logo_image","settings":{"link":""}},"ae33f3fd-c7ae-48a3-987c-c548f7bc734d":{"type":"logo_image","settings":{"link":""}},"ba01e96a-1ae4-4b4f-9eb5-caa9c4c1fd49":{"type":"logo_image","settings":{"link":""}},"0bab9b94-7aed-4d29-aa69-856f70a56e62":{"type":"logo_image","settings":{"link":""}}},"block_order":["635b744a-a34b-4577-b05e-278bdbb9c950","1dab223d-bfe2-4435-a307-a79f1d11130d","9af468d1-e642-4322-b47e-3300663fb738","d3da3920-eafe-4fdb-968a-95dbe3f8b5de","46413027-e883-4058-b504-a70407bfe387","27649f74-b8aa-49e2-99d2-50c3acb66e5e","6149fef2-69a5-42fb-8a37-0ea58afc8506","ae33f3fd-c7ae-48a3-987c-c548f7bc734d","ba01e96a-1ae4-4b4f-9eb5-caa9c4c1fd49","0bab9b94-7aed-4d29-aa69-856f70a56e62"],"custom_css":[".section-logo-bar-padding {display: none;}"],"settings":{"title":"","heading_size":"h2","padding_top":60,"padding_bottom":0}},"single-banner":{"type":"single-banner","settings":{"image_height":"adapt","link":"shopify:\/\/collections\/special-product","padding_top":0,"padding_bottom":0}},"toprated-products":{"type":"toprated-products","settings":{"title":"Toprated","collection":"left-product","products_to_show":6,"rows":3,"image_ratio":"adapt","display_product_type":false,"show_rating":true,"show_secondary_image":false,"show_vendor":false,"padding_top":32,"padding_bottom":0}},"left-banner":{"type":"left-banner","settings":{"image_height":"adapt","link":"shopify:\/\/collections\/phone","padding_top":32,"padding_bottom":0}},"testimonial":{"type":"testimonial","blocks":{"57b2ce7d-28a8-47e8-a241-c97c0f50f79b":{"type":"quote","settings":{"author":"Jesica Wilson","author_pos":"developer","quote":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>","star_rating":4.5}},"1bf807ce-99ac-422d-b5f3-68c6d504d093":{"type":"quote","settings":{"author":"Jesica Wilson","author_pos":"developer","quote":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>","star_rating":3.5}},"0f3dd87a-d553-4ff2-a9e9-5a8e5749e6fc":{"type":"quote","settings":{"author":"Jesica Wilson","author_pos":"developer","quote":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>","star_rating":4}}},"block_order":["57b2ce7d-28a8-47e8-a241-c97c0f50f79b","1bf807ce-99ac-422d-b5f3-68c6d504d093","0f3dd87a-d553-4ff2-a9e9-5a8e5749e6fc"],"settings":{"title":"Testimonials","image_corners":"original","star_ratingclr":"#ffbb40","padding_top":32,"padding_bottom":0}},"bestseller-products":{"type":"bestseller-products","settings":{"title":"Bestseller","collection":"electronic","products_to_show":6,"rows":3,"image_ratio":"adapt","display_product_type":false,"show_rating":true,"show_secondary_image":false,"show_vendor":false,"padding_top":32,"padding_bottom":0}}},"content_for_index":[],"blocks":{"50817223060279217279":{"type":"shopify:\/\/apps\/ali-reviews\/blocks\/widget-popup\/bf2eea72-0400-4db1-8908-44b7418f9a88","disabled":true,"settings":{}}}},"presets":{"Default":{"sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{}}},"block_order":["announcement-bar-0"],"settings":{}},"header":{"type":"header","settings":{"logo_width":90,"topbg_clr":"#f5f5f5","topc_clr":"#000000"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"link_list","settings":{}},"footer-1":{"type":"link_list","settings":{"heading":"Info"}},"footer-2":{"type":"text","settings":{"heading":"Our mission"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"wbfoot_bgcolor":"#f5f5f5","wbfoot_color":"#121212","wbfoot_hcolor":"#555555","margin_top":48}},"main-password-header":{"type":"main-password-header","settings":{}},"main-password-footer":{"type":"main-password-footer","settings":{}}}}},"platform_customizations":{"custom_css":[".left-col {display: none;}",".product__info-container {border: solid 1px; border-radius: 2%; padding: 10%;}",".cart__checkout-button {font-weight: bold; border-color: #000; border: solid 1px; color: #fff; background-color: #1fcb5a; text-transform: uppercase;}"]}}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "current": {
+    "colors_accent_1": "#ffffff",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#777777",
+    "colors_text": "#939393",
+    "colors_outline_button_labels": "#939393",
+    "colors_background_1": "#fafafa",
+    "colors_background_2": "#FFFFFF",
+    "wbmainclr": "#939393",
+    "type_header_font": "montserrat_n4",
+    "type_body_font": "montserrat_n4",
+    "body_scale": 100,
+    "page_width": 1600,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 6,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 0,
+    "buttons_shadow_blur": 0,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 20,
+    "variant_pills_radius": 0,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 0,
+    "variant_pills_shadow_blur": 0,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 10,
+    "inputs_radius": 6,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_blur": 0,
+    "card_style": "card",
+    "card_image_padding": 0,
+    "card_text_alignment": "center",
+    "card_color_scheme": "background-1",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "text_boxes_border_thickness": 0,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 6,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 0,
+    "media_shadow_blur": 0,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 6,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 0,
+    "popup_shadow_blur": 0,
+    "drawer_border_thickness": 1,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 0,
+    "drawer_shadow_blur": 0,
+    "badge_corner_radius": 0,
+    "sale_badge_color_scheme": "background-2",
+    "sold_out_badge_color_scheme": "background-1",
+    "accent_icons": "text",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/coxinhaeciapalmas.to\/",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/skinbodysupplements\/",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@SkinBodyOrganic",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": false,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "currency_code_enabled": false,
+    "cart_type": "page",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "wb_carticon": "wb_shopcart",
+    "wb_cartnumber": "wb_shopqty",
+    "show_shopicon": true,
+    "wbenable_ship": false,
+    "wbmin_order": 0,
+    "wbprogscolor": "#000000",
+    "upsellp": true,
+    "wbuphead": "Customers also like",
+    "upsellcollection": "",
+    "upsellpempty": true,
+    "upsell_to_show": 2,
+    "cart_drawer_collection": "produtos",
+    "show_cartpayment": false,
+    "show_timer": false,
+    "timer_text": "date_2024\/09\/01",
+    "displaycustomizer": false,
+    "wbboxed": false,
+    "wb_enablewish": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_accent_color": "#fa414c",
+    "checkout_button_color": "#fa414c",
+    "spacing_grid_horizontal": 20,
+    "spacing_grid_vertical": 4,
+    "wboverlayhcolor": "#121212",
+    "wboverlayhbg": "#FFFFFF",
+    "wboverlayhoutline": "#FFFFFF",
+    "type_header_base_size": 40,
+    "type_base_size": 14,
+    "badge_toggle": true,
+    "new_products_period": "2000",
+    "badge_position": "top left",
+    "colorSwatch": "",
+    "colorImg": "<p> heather-black.jpg, black.png, heather-gray.gif, white.png, red.png<\/p>",
+    "type_base_font": "Google+Poppins",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "4b76336a-e19a-4980-8af4-9ef1e042aae2": {
+            "type": "announcement",
+            "settings": {
+              "text": "FRETE GRÁTIS PARA COMPRAS ACIMA DE R$ 149,90",
+              "link": ""
+            }
+          },
+          "66a41840-6d2b-4bc7-a349-eb1b5fbad4f0": {
+            "type": "announcement",
+            "settings": {
+              "text": "LANÇAMENTO EM ATÉ 34% DE DESCONTO",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4b76336a-e19a-4980-8af4-9ef1e042aae2",
+          "66a41840-6d2b-4bc7-a349-eb1b5fbad4f0"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "home_only": false,
+          "mobile_bar": true,
+          "color_scheme": "inverse",
+          "auto_rotate": true,
+          "change_slides_speed": 3
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "eaccb87a-7168-4006-bd52-469034a22e1c": {
+            "type": "megamenu-product",
+            "settings": {
+              "menuname": "new arrivals",
+              "showsubmenu": false,
+              "collection": "latest-product",
+              "products_to_show": 6
+            }
+          },
+          "55d0341f-b43a-490b-9a67-ef52e5414661": {
+            "type": "megamenu-gallery",
+            "settings": {
+              "menuname": "shop",
+              "showsubmenu": true,
+              "wb1_link": "shopify:\/\/collections\/men",
+              "wb1_text": "",
+              "wb2_link": "shopify:\/\/collections\/women",
+              "wb2_text": "",
+              "wb3_link": "shopify:\/\/collections\/accessories",
+              "wb3_text": "",
+              "wb4_link": "shopify:\/\/collections\/shoes",
+              "wb4_text": ""
+            }
+          },
+          "2b885d94-9dbc-4570-9274-59692ee5faaa": {
+            "type": "megamenu-blog",
+            "settings": {
+              "menuname": "News",
+              "showsubmenu": false,
+              "blog": "news",
+              "blog_to_show": 4
+            }
+          }
+        },
+        "block_order": [
+          "eaccb87a-7168-4006-bd52-469034a22e1c",
+          "55d0341f-b43a-490b-9a67-ef52e5414661",
+          "2b885d94-9dbc-4570-9274-59692ee5faaa"
+        ],
+        "custom_css": [
+          ".wbheadtop {display: none;}",
+          "#Search-In-Modal,.field {background-color: #939393; border-radius: 25px; color: #fff;}",
+          "#Search-In-Modal {padding: 0 15px 0;}",
+          ".wr-menu {color: #000; background-image: none;}",
+          ".bar {background-color: #939393;}",
+          ".search__button {background-image: none;}",
+          "#svg_search_button {width: 30px; height: 30px;}",
+          ".wishlist {display: none;}",
+          ".svgbg {background-color: #939393;}",
+          ".svgbg:hover {background-color: #fff;}",
+          ".link {color: #212529;}",
+          ".list-menu a {color: #333;}",
+          "@media screen and (max-width: 767px) {.field {display: none !important; }}"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "logo": "shopify:\/\/shop_images\/background_1.png",
+          "logo_width": 128,
+          "mobile_logo": "shopify:\/\/shop_images\/background_1.png",
+          "mobile_logo_width": 110,
+          "logo_position": "top-left",
+          "show_acicon": true,
+          "color_schememenu": "background-1",
+          "color_dropmenu": "background-1",
+          "menu": "main-menu",
+          "secmenu": "main-menu",
+          "enable_sticky_header": true,
+          "topbg_clr": "#939393",
+          "topc_clr": "#939393",
+          "topoffer": "",
+          "topemail": "",
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "margin_bottom": 0,
+          "padding_top": 18,
+          "padding_bottom": 18
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Precisa de Ajuda ?",
+              "menu": "extra"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Termos & Condições",
+              "menu": "footer"
+            }
+          },
+          "image_iVmeiE": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cartoes-the-body.png",
+              "image_width": 400,
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "footer-0",
+          "image_iVmeiE"
+        ],
+        "custom_css": [
+          ".newsletter-form__button {color: #fff; background-color: #000;}",
+          ".section-footer-padding {padding-right: 30px; padding-left: 30px;}"
+        ],
+        "settings": {
+          "wbfoot_bgcolor": "#ffffff",
+          "wbfoot_color": "#777777",
+          "wbfoot_hcolor": "#fa414c",
+          "logo": "shopify:\/\/shop_images\/background_1.png",
+          "logo_width": 130,
+          "conthead": "",
+          "contsubtext": "<p><strong>Nossa Promessa: Qualidade, Integridade e Resultados<\/strong><\/p><p>Na Skin & Body Organic, a qualidade e a integridade de nossos produtos são inegociáveis. Acreditamos em fornecer produtos naturais que realmente funcionam, sem comprometer sua saúde. Estamos comprometidos com a obtenção de resultados reais que melhoram a vida de nossos clientes.<br\/><strong><br\/>Horário de Atendimento On-line:<\/strong><br\/>Segunda a Sexta-Feira<br\/>das <strong>08:00 às 19:00<\/strong> horas.<br\/><br\/>CNPJ: 48.412.786\/0001-80<br\/><br\/>Avenida Copacabana, 325 - Alphaville Empresarial - 18 Forte, Barueri - SP 06472-001<\/p>",
+          "footer_address": "",
+          "footer_contact_no": "",
+          "footer_contact_id": "",
+          "enable_newsletter": true,
+          "newsheading": "<b>Faça Parte da Lista Exclusiva<\/b> <br><h6>Receba descontos e novidades em primeira mão<\/h6>",
+          "social_head": "",
+          "show_social": true,
+          "payment_enable": false,
+          "show_copyright": true,
+          "margin_top": 60,
+          "padding_top": 32,
+          "padding_bottom": 32,
+          "enable_follow_on_shop": false
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 160,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_mxXfwR": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/03_7ecb792d-a05c-412c-95ee-34a278d48e7b.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/banner-mob-3.jpg",
+              "subheading": "",
+              "heading": "",
+              "heading_size": "large",
+              "subheadingtext": "",
+              "button_label": "",
+              "link": "",
+              "box_align": "middle-left",
+              "show_text_box": false,
+              "text_alignment": "left",
+              "image_overlay_opacity": 0,
+              "color_scheme": "accent-1",
+              "text_alignment_mobile": "left"
+            }
+          },
+          "2b986134-85fe-4ab3-b36a-42f81dc94671": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-1.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/01_3382a3ec-f4c4-43d7-a159-3504cb20f57e.jpg",
+              "subheading": "",
+              "heading": "",
+              "heading_size": "large",
+              "subheadingtext": "",
+              "button_label": "",
+              "link": "",
+              "box_align": "middle-left",
+              "show_text_box": false,
+              "text_alignment": "left",
+              "image_overlay_opacity": 0,
+              "color_scheme": "accent-1",
+              "text_alignment_mobile": "left"
+            }
+          },
+          "slide_TFHtxT": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-3.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/03_d6510c9d-2a6f-4a15-8904-ca6b5a5c9838.jpg",
+              "subheading": "",
+              "heading": "",
+              "heading_size": "large",
+              "subheadingtext": "",
+              "button_label": "",
+              "link": "",
+              "box_align": "middle-left",
+              "show_text_box": false,
+              "text_alignment": "left",
+              "image_overlay_opacity": 0,
+              "color_scheme": "accent-1",
+              "text_alignment_mobile": "left"
+            }
+          },
+          "f1d7d385-be74-41e3-87d4-32a5cfeb3698": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/02_0f70210f-56e2-44ec-9c09-fe242e8b3340.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/banner-mob-2.jpg",
+              "subheading": "",
+              "heading": "",
+              "heading_size": "large",
+              "subheadingtext": "",
+              "button_label": "",
+              "link": "",
+              "box_align": "middle-left",
+              "show_text_box": false,
+              "text_alignment": "left",
+              "image_overlay_opacity": 0,
+              "color_scheme": "accent-1",
+              "text_alignment_mobile": "left"
+            }
+          },
+          "slide_jN4Xqy": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/01_b6898f11-f437-4095-8051-e4888da83e98.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/banner-mob.jpg",
+              "subheading": "",
+              "heading": "",
+              "heading_size": "large",
+              "subheadingtext": "",
+              "button_label": "",
+              "link": "",
+              "box_align": "middle-left",
+              "show_text_box": false,
+              "text_alignment": "left",
+              "image_overlay_opacity": 0,
+              "color_scheme": "accent-1",
+              "text_alignment_mobile": "left"
+            }
+          }
+        },
+        "block_order": [
+          "slide_mxXfwR",
+          "2b986134-85fe-4ab3-b36a-42f81dc94671",
+          "slide_TFHtxT",
+          "f1d7d385-be74-41e3-87d4-32a5cfeb3698",
+          "slide_jN4Xqy"
+        ],
+        "settings": {
+          "layout": "full_bleed",
+          "slide_height": "small",
+          "slider_visual": "dots",
+          "pagicolor": "#121212",
+          "auto_rotate": true,
+          "change_slides_speed": 3,
+          "wboverlaycolor": "#ffffff",
+          "wboverlaybg": "#fa414c",
+          "wboverlayoutline": "#fa414c",
+          "wboverlayhcolor": "#ffffff",
+          "wboverlayhbg": "#121212",
+          "wboverlayhoutline": "#121212",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "custom_css": [
+          ".wbcolllist {display: none;}"
+        ],
+        "settings": {
+          "title": "JÁ ESCOLHEU SEU SUPLEMENTO ?",
+          "heading_size": "h2",
+          "image_ratio": "adapt",
+          "padding_top": 48,
+          "padding_bottom": 0
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "f26cbff1-1a5b-440e-b8a7-9234261a500c": {
+            "type": "image",
+            "settings": {
+              "icon1": "delivery",
+              "title": "Frete Grátis",
+              "text": "<p>Para compras acima de R$ 189,00<\/p>"
+            }
+          },
+          "a0db24f3-f196-47fc-8727-90a2285c5aa1": {
+            "type": "image",
+            "settings": {
+              "icon1": "moneyback",
+              "title": "Pague no PIX",
+              "text": "<p>ou utilize seu cartão de crédito<\/p>"
+            }
+          },
+          "f3ba6fce-4fcf-4e30-8087-c2939b16737c": {
+            "type": "image",
+            "settings": {
+              "icon1": "support",
+              "title": "Médico online",
+              "text": "<p>Para prescrição médica<\/p>"
+            }
+          },
+          "294ca570-15f3-41d2-a88e-3c0a5e6a506b": {
+            "type": "image",
+            "settings": {
+              "icon1": "offer",
+              "title": "Compras em até 6x",
+              "text": "<p>Sem juros<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f26cbff1-1a5b-440e-b8a7-9234261a500c",
+          "a0db24f3-f196-47fc-8727-90a2285c5aa1",
+          "f3ba6fce-4fcf-4e30-8087-c2939b16737c",
+          "294ca570-15f3-41d2-a88e-3c0a5e6a506b"
+        ],
+        "settings": {
+          "title": "",
+          "heading_size": "h1",
+          "iconwidth": 40,
+          "column_alignment": "center",
+          "padding_top": 24,
+          "padding_bottom": 0
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "custom_css": [
+          ".wbslickblog {justify-content: center;}",
+          ".wbblogimgdesc a {color: #333;}"
+        ],
+        "settings": {
+          "m_title": "Blog",
+          "heading_size": "h2",
+          "blog": "news",
+          "show_image": true,
+          "image_height": "square",
+          "show_date": false,
+          "show_author": false,
+          "show_desc": true,
+          "show_cmment": false,
+          "show_view_all": false,
+          "padding_top": 24,
+          "padding_bottom": 4
+        }
+      },
+      "logo-bar": {
+        "type": "logo-bar",
+        "blocks": {
+          "635b744a-a34b-4577-b05e-278bdbb9c950": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1dab223d-bfe2-4435-a307-a79f1d11130d": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "9af468d1-e642-4322-b47e-3300663fb738": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "d3da3920-eafe-4fdb-968a-95dbe3f8b5de": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "46413027-e883-4058-b504-a70407bfe387": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "27649f74-b8aa-49e2-99d2-50c3acb66e5e": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "6149fef2-69a5-42fb-8a37-0ea58afc8506": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "ae33f3fd-c7ae-48a3-987c-c548f7bc734d": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "ba01e96a-1ae4-4b4f-9eb5-caa9c4c1fd49": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "0bab9b94-7aed-4d29-aa69-856f70a56e62": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "635b744a-a34b-4577-b05e-278bdbb9c950",
+          "1dab223d-bfe2-4435-a307-a79f1d11130d",
+          "9af468d1-e642-4322-b47e-3300663fb738",
+          "d3da3920-eafe-4fdb-968a-95dbe3f8b5de",
+          "46413027-e883-4058-b504-a70407bfe387",
+          "27649f74-b8aa-49e2-99d2-50c3acb66e5e",
+          "6149fef2-69a5-42fb-8a37-0ea58afc8506",
+          "ae33f3fd-c7ae-48a3-987c-c548f7bc734d",
+          "ba01e96a-1ae4-4b4f-9eb5-caa9c4c1fd49",
+          "0bab9b94-7aed-4d29-aa69-856f70a56e62"
+        ],
+        "custom_css": [
+          ".section-logo-bar-padding {display: none;}"
+        ],
+        "settings": {
+          "title": "",
+          "heading_size": "h2",
+          "padding_top": 60,
+          "padding_bottom": 0
+        }
+      },
+      "single-banner": {
+        "type": "single-banner",
+        "settings": {
+          "image_height": "adapt",
+          "link": "shopify:\/\/collections\/special-product",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "toprated-products": {
+        "type": "toprated-products",
+        "settings": {
+          "title": "Toprated",
+          "collection": "left-product",
+          "products_to_show": 6,
+          "rows": 3,
+          "image_ratio": "adapt",
+          "display_product_type": false,
+          "show_rating": true,
+          "show_secondary_image": false,
+          "show_vendor": false,
+          "padding_top": 32,
+          "padding_bottom": 0
+        }
+      },
+      "left-banner": {
+        "type": "left-banner",
+        "settings": {
+          "image_height": "adapt",
+          "link": "shopify:\/\/collections\/phone",
+          "padding_top": 32,
+          "padding_bottom": 0
+        }
+      },
+      "testimonial": {
+        "type": "testimonial",
+        "blocks": {
+          "57b2ce7d-28a8-47e8-a241-c97c0f50f79b": {
+            "type": "quote",
+            "settings": {
+              "author": "Jesica Wilson",
+              "author_pos": "developer",
+              "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>",
+              "star_rating": 4.5
+            }
+          },
+          "1bf807ce-99ac-422d-b5f3-68c6d504d093": {
+            "type": "quote",
+            "settings": {
+              "author": "Jesica Wilson",
+              "author_pos": "developer",
+              "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>",
+              "star_rating": 3.5
+            }
+          },
+          "0f3dd87a-d553-4ff2-a9e9-5a8e5749e6fc": {
+            "type": "quote",
+            "settings": {
+              "author": "Jesica Wilson",
+              "author_pos": "developer",
+              "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...<\/p>",
+              "star_rating": 4
+            }
+          }
+        },
+        "block_order": [
+          "57b2ce7d-28a8-47e8-a241-c97c0f50f79b",
+          "1bf807ce-99ac-422d-b5f3-68c6d504d093",
+          "0f3dd87a-d553-4ff2-a9e9-5a8e5749e6fc"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "image_corners": "original",
+          "star_ratingclr": "#ffbb40",
+          "padding_top": 32,
+          "padding_bottom": 0
+        }
+      },
+      "bestseller-products": {
+        "type": "bestseller-products",
+        "settings": {
+          "title": "Bestseller",
+          "collection": "electronic",
+          "products_to_show": 6,
+          "rows": 3,
+          "image_ratio": "adapt",
+          "display_product_type": false,
+          "show_rating": true,
+          "show_secondary_image": false,
+          "show_vendor": false,
+          "padding_top": 32,
+          "padding_bottom": 0
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "50817223060279217279": {
+        "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-popup\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90,
+            "topbg_clr": "#f5f5f5",
+            "topc_clr": "#000000"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "wbfoot_bgcolor": "#f5f5f5",
+            "wbfoot_color": "#121212",
+            "wbfoot_hcolor": "#555555",
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".left-col {display: none;}",
+      ".product__info-container {border: solid 1px; border-radius: 2%; padding: 10%;}",
+      ".cart__checkout-button {font-weight: bold; border-color: #000; border: solid 1px; color: #fff; background-color: #1fcb5a; text-transform: uppercase;}"
+    ]
+  }
+}
