@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html {
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -34,6 +34,7 @@ hr {
 h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    color: #333;
 }
 p {
     margin-top: 0;
@@ -84,6 +85,7 @@ sup {
 a {
     text-decoration: none;
     background-color: transparent;
+    color: #333;
 }
 a:not([href]):not([class]) {
     color: inherit;
@@ -5742,4 +5744,23 @@ header-drawer {
   
 }
 
-    button#checkout { display:none !important; }
+button#checkout { display:none !important; }
+
+/* Mudanças feitas por Renato */
+.link {
+  color: #212529;
+}
+.list-menu a {
+  color: #333;
+}
+@media screen and (max-width: 767px) {
+  .field,
+  .menu-drawer__utility-links .wbsecmenu {
+    display: none !important;
+  }
+  .menu-drawer__navigation {
+    display: flex;
+    align-items: center;
+  }
+}
+
