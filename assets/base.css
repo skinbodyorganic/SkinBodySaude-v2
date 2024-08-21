@@ -5766,13 +5766,21 @@ button#checkout { display:none !important; }
 }
 /* Produtos Renato */
 .btn-sumit-product {
-    background-color: black; 
-    color: white; 
+    background-color: #000; 
+    color: #FFF; 
     /* border: solid 1px #000;  */
     text-transform: uppercase; 
     font-weight: bold;
     padding: 1rem;
     width: 80%;
+}
+.btn-sumit-product:hover {
+    background-color: #ff1f1e; 
+}
+@media screen and (max-width: 767px) {
+    .btn-sumit-product {
+        width: 100%;
+    }
 }
 .variante-produto {
     display: flex;
