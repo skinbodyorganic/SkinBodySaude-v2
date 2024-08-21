@@ -1,0 +1,189 @@
+{% comment %}
+  Renders product variant options
+
+  Accepts:
+  - product: {Object} product object.
+  - option: {Object} current product_option object.
+  - block: {Object} block object.
+
+
+  Usage:
+  {% render 'product-variant-options',
+    product: product,
+    option: option,
+    block: block
+  %}
+{% endcomment %}
+
+{%- liquid
+  assign variants_available_arr = product.variants | map: 'available'
+  assign variants_option1_arr = product.variants | map: 'option1'
+  assign variants_option2_arr = product.variants | map: 'option2'
+  assign variants_option3_arr = product.variants | map: 'option3'
+
+  assign product_form_id = 'product-form-' | append: section.id
+-%}
+
+{%- for value in option.values -%}
+  {%- liquid
+    assign option_disabled = true
+
+    for option1_name in variants_option1_arr
+      case option.position
+        when 1
+          if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+        when 2
+          if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+        when 3
+          if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+      endcase
+    endfor
+  -%}
+
+  {%- if block.settings.picker_type == 'button' -%}
+    {% if option.name == 'Kit' or option.name == 'kit' %}
+      <style>
+        .kit-dp-none{ display: none !important;}
+      </style>
+      <!-- Kits de produtos -->
+      <div class="kit-swatches ">
+        {% liquid
+          for variante in product.variants
+            if variante.option1 == value and variante.option2 == product.options_with_values[1].selected_value and variante.option3 == product.options_with_values[2].selected_value
+              assign kit_img = variante.featured_media
+              assign kit_price = variante.price
+              assign kit_compare_price = variante.compare_at_price
+            endif
+          endfor
+        %}
+
+        <input
+          type="radio"
+          class="product-option d-none kit_input "
+          name="{{ option.name | handleize }}"
+          id="option-{{ option.name | handleize }}-{{ value | handleize }}-product-{{ product.id }}"
+          value="{{ value | escape }}"
+          {% if option.selected_value == value %}
+            checked
+          {% endif %}
+          {% if option_disabled %}
+            class="disabled"
+          {% endif %}
+        >
+
+        <label
+          class="color-{{ settings.sale_kit }}"
+          for="option-{{ option.name | handleize }}-{{ value| handleize }}-product-{{ product.id }}"
+        >
+          <div class="kit-swatches-item">
+            <img
+              src="{{ kit_img | img_url: 'medium' }}"
+              alt="{{ product.title }}"
+              style="
+                border-radius: 1rem;
+              "
+              width="64"
+              height="64"
+            >
+            <div class="kit-content-left">
+              <div class="kit-swatches-quantity">
+                {% if forloop.index == 2 %}
+                  <div
+                    class="kit-mostsell-badge kit-badges"
+                    style="
+                      border-radius: 3rem;
+                      background: #ff4545;
+                      font-size: 1.4rem;
+                      padding: 1px 10px 1px 10px;
+                      margin-top: -5px;
+                    "
+                  >
+                    Mais Vendido
+                  </div>
+                {% endif %}
+
+                {% if block.settings.show_badge_moreeconomy %}
+                  {% if forloop.index == block.settings.badge_moreeconomy_position %}
+                    <div class="kit-moreeconomy-badge kit-badges">Maior Economia</div>
+                  {% endif %}
+                {% endif %}
+
+              </div>
+            </div>
+
+            <div class="kit-content-right">
+              <div
+                class="kit-item-title"
+                style="    text-align: left;"
+              >
+                {{ value }}
+              </div>
+              <div
+                class="kit-old-value-prices"
+                style="    text-align: justify;"
+              >
+                <span
+                  style="    text-decoration: line-through;"
+                >
+                  {{- kit_compare_price | money -}}
+                </span>
+                {{ kit_price | money }}
+              </div>
+
+              {% if kit_compare_price != null and kit_price < kit_compare_price %}
+                <div class="badge price__badge-sale color-{{ settings.sale_input }}">
+                  ECONOMIZE
+                  <strong>
+                    {{ kit_compare_price | minus: kit_price | money }}
+                  </strong>
+                </div>
+              {% endif %}
+
+            </div>
+          </div>
+        </label>
+
+        <!-- End Kits -->
+    {%- else -%}
+      <input
+        type="radio"
+        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        name="{{ option.name }} desconto"
+        value="{{ value | escape }}"
+        form="{{ product_form_id }}"
+        {% if option.selected_value == value %}
+          checked
+        {% endif %}
+
+        {% if option_disabled %}
+          class="disabled"
+        {% endif %}
+      >
+
+      <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+        {{ value -}}
+
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+      </label>
+    {%- endif -%}
+  {%- elsif block.settings.picker_type == 'dropdown' -%}
+    <option
+      value="{{ value | escape }}"
+      {% if option.selected_value == value %}
+        selected="selected"
+      {% endif %}
+    >
+      {% if option_disabled -%}
+        {{- 'products.product.value_unavailable' | t: option_value: value -}}
+      {%- else -%}
+        {{- value -}}
+      {%- endif %}
+    </option>
+  {%- endif -%}
+{%- endfor -%}

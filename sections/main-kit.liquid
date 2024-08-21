@@ -1,0 +1,260 @@
+<variant-radios
+  class="no-js-hidden"
+  data-section="{{ section.id }}"
+  data-url="{{ product.url }}"
+  {{ block.shopify_attributes }}
+>
+  {%- for option in product.options_with_values -%}
+    <fieldset class="js product-form__input color-swatches">
+      <legend class="form__label kit-dp-none">{{ option.name }}</legend>
+      {%- for value in option.values -%}
+        {% if option.name == 'Cor' or option.name == 'cor' or option.name == 'Color' %}
+          {% comment %} Pegando imagem da opção {% endcomment %}
+          {% assign encontrado = false %}
+          {% for variante in product.variants %}
+            {% for opcaoVariante in variante.options %}
+              {% if opcaoVariante == value %}
+                {% assign swatch_img = variante.featured_media %}
+                {% assign encontrado = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if encontrado %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% if swatch_img %}
+            <input
+              type="radio"
+              id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+              name="{{ option.name }}"
+              value="{{ value | escape }}"
+              form="{{ product_form_id }}"
+              {% if option.selected_value == value %}
+                checked
+              {% endif %}
+            >
+            <label
+              for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+              class="color-swatch-item form-check-label"
+              style="border:none;"
+            >
+              <img
+                width="55"
+                height="55"
+                src="{{ swatch_img | img_url: '500x500', crop: 'center' }}"
+                alt=""
+                loading="lazy"
+                style="vertical-align: middle;"
+              >
+            </label>
+          {% endif %}
+        {% elsif option.name == 'Kit' or option.name == 'kit' %}
+          <style>
+            .kit-dp-none {
+              display: none !important;
+            }
+          </style>
+          <!-- Kits de produtos -->
+          <div class="kit-swatches">
+            {% for variante in product.variants %}
+              {% if variante.option1 == value
+                and variante.option2 == product.options_with_values[1].selected_value
+                and variante.option3 == product.options_with_values[2].selected_value
+              %}
+                {% assign kit_img = variante.featured_media %}
+                {% assign kit_price = variante.price %}
+                {% assign kit_compare_price = variante.compare_at_price %}
+                {% assign kit_available = variante.available %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+
+            <input
+              type="radio"
+              class="product-option d-none kit_input"
+              name="{{ option.name | handleize }}"
+              id="option-{{ option.name | handleize }}-{{ value | handleize }}-product-{{ product.id }}"
+              value="{{ value | escape }}"
+              {% if option.selected_value == value %}
+                checked
+              {% endif %}
+            >
+
+            <label
+              class="kit-label"
+              for="option-{{ option.name | handleize }}-{{ value | handleize }}-product-{{ product.id }}"
+            >
+              <div class="kit-swatches-item">
+                <div class="kit-content-left">
+                  <div class="kit-product-image-wrapper">
+                    <img class="kit-product-image" src="{{ kit_img | img_url: '500x500', crop: 'center' }}" width="100" height="100"alt="Image kit" />
+                  </div>
+                  <div class="kit-swatches-quantity">
+                    {% if section.settings.show_badge_mostsell %}
+                      {% if forloop.index == section.settings.badge_mostsell_position %}
+                        <div class="kit-mostsell-badge kit-badges">Mais Vendido</div>
+                      {% endif %}
+                    {% endif %}
+
+                    {% if section.settings.show_badge_moreeconomy %}
+                      {% if forloop.index == section.settings.badge_moreeconomy_position %}
+                        <div class="kit-moreeconomy-badge kit-badges">Maior Economia</div>
+                      {% endif %}
+                    {% endif %}
+
+                    <div class="kit-item-title">
+                      {{ value }}
+                    </div>
+
+                    {% if kit_compare_price != null and kit_price < kit_compare_price %}
+                      <div class="kit-save-badge kit-badges">
+                        Economize
+                        <strong>
+                          {{ kit_compare_price | minus: kit_price | money }}
+                        </strong>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+                <div class="kit-content-right">
+                  <div class="kit-comparation-prices">
+                    {% if kit_compare_price > kit_price %}
+                      <div class="kit-old-value-price">
+                        {{ kit_compare_price | money }}
+                      </div>
+                    {% endif %}
+                    <div class="kit-new-value-price">
+                      {{ kit_price | money }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {%- render 'buy-buttons',
+                block: block,
+                product: product,
+                product_form_id: product_form_id,
+                section_id: section.id,
+                show_pickup_availability: true
+              -%}
+            </label>
+          </div>
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              function isIE() {
+                const ua = window.navigator.userAgent;
+                const msie = ua.indexOf('MSIE ');
+                const trident = ua.indexOf('Trident/');
+
+                return msie > 0 || trident > 0;
+              }
+
+              if (!isIE()) return;
+              const hiddenInput = document.querySelector('{{ product_form_id }} input[name="id"]');
+              const noScriptInputWrapper = document.createElement('div');
+              const variantSwitcher =
+                document.querySelector('variant-radios[data-section="{{ section.id }}"]') ||
+                document.querySelector('variant-selects[data-section="{{ section.id }}"]');
+              noScriptInputWrapper.innerHTML = document.querySelector(
+                '.product-form__noscript-wrapper-{{ section.id }}'
+              ).textContent;
+              variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
+
+              document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
+                hiddenInput.value = event.currentTarget.value;
+              });
+            });
+          </script>
+
+          <!-- End Kits -->
+        {% else %}
+          <input
+            type="radio"
+            id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+            name="{{ option.name }}"
+            value="{{ value | escape }}"
+            form="{{ product_form_id }}"
+            {% if option.selected_value == value %}
+              checked
+            {% endif %}
+          >
+          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+            {{ value }}
+          </label>
+        {% endif %}
+      {% endfor %}
+    </fieldset>
+  {%- endfor -%}
+</variant-radios>
+
+{% schema %}
+{
+  "name": "kit",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "t:sections.collapsible_content.settings.caption.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "t:sections.collapsible_content.settings.heading.label",
+      "default": "Collapsible content"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collapsible_row",
+      "name": "t:sections.collapsible_content.blocks.collapsible_row.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Collapsible row",
+          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label",
+          "info": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.info"
+        },
+
+        {
+          "type": "richtext",
+          "id": "row_content",
+          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.page.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.collapsible_content.presets.name",
+      "blocks": [
+        {
+          "type": "collapsible_row"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
