@@ -5775,8 +5775,15 @@ button#checkout { display:none !important; }
     width: 80%;
 }
 .variante-produto {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     cursor: pointer;
     font-weight: 500;
+}
+.variante-produto p {
+    margin: 0;
+    color: #333;
 }
 .variante-image-produto {
     display: flex;
@@ -5787,13 +5794,12 @@ button#checkout { display:none !important; }
     gap: 4px;
     align-items: center;
     border: 1px solid #dfdfdf;
-    color: #333;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .variante-produto:hover, .variante-produto p:hover {
     
   }
-  .variante-image-produto:hover{
+  .container-variante-hover:hover{
     transition: .1s;
     background-color: #333;
     color: #FFF;
