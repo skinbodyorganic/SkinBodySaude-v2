@@ -12,11 +12,11 @@
     "colors_accent_1": "#ffffff",
     "gradient_accent_1": "",
     "colors_accent_2": "#777777",
-    "colors_text": "#939393",
-    "colors_outline_button_labels": "#939393",
+    "colors_text": "#0d0d0d",
+    "colors_outline_button_labels": "#1a1a1a",
     "colors_background_1": "#fafafa",
     "colors_background_2": "#FFFFFF",
-    "wbmainclr": "#939393",
+    "wbmainclr": "#333333",
     "type_header_font": "montserrat_n4",
     "type_body_font": "montserrat_n4",
     "body_scale": 100,
@@ -786,7 +786,7 @@
   "platform_customizations": {
     "custom_css": [
       ".left-col {display: none;}",
-      ".product__info-container {border: solid 1px; border-radius: 2%; padding: 2%;}",
+      ".product__info-container {border: solid 1px; border-radius: 2%; padding: 10%;}",
       ".cart__checkout-button {font-weight: bold; border-color: #000; border: solid 1px; color: #fff; background-color: #1fcb5a; text-transform: uppercase;}"
     ]
   }
