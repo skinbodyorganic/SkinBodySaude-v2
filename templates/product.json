@@ -37,9 +37,9 @@
         ".imgalignmiddle {background: #000;}",
         ".global-media-settings {border: none;}",
         ".wbimg_txt_flex {width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}",
-        ".wbimgtxt_left,.wbimgtxt_right {width: 50%;}",
         ".wbimg_txtimg img {width: 100%;}",
-        ".image-with-text__media {background: #000;}"
+        ".image-with-text__media {background: #000;}",
+        "@media screen and (max-width: 767px) {.wbimgtxt_right {padding: 0 10% 10%; }}"
       ],
       "settings": {
         "color_scheme": "background-1",
