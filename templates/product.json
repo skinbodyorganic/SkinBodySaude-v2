@@ -32,7 +32,7 @@
       ],
       "custom_css": [
         ".wbimgtxt_right {text-align: left;}",
-        "p,h2, strong {line-height: 1.7rem;}",
+        "p,strong {line-height: 1.7rem;}",
         "strong {font-size: 1.2rem;}",
         ".imgalignmiddle {background: #000;}",
         ".global-media-settings {border: none;}",
