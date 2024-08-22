@@ -4269,7 +4269,7 @@ button.loading .loading-overlay__spinner svg .path{
     margin-top: 50px;
 }
 .wbimgtxt_right h2.h0{
-    font-size: calc(var(--font-body-scale) * 64px);
+    font-size: calc(var(--font-body-scale) * 50px);
 }
 .wbimgtxt_right h2.h1{
     font-size: calc(var(--font-body-scale) * 38px);
