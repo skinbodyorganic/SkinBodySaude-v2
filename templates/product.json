@@ -31,7 +31,8 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        ".wbimgtxt_right {text-align: left; padding: 10%;}",
+        ".wbimgtxt_right {text-align: left;}",
+        "p {line-height: 1.5rem;}",
         ".imgalignmiddle {background: #000;}",
         ".global-media-settings {border: none;}",
         ".wbimg_txt_flex {width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}",
@@ -130,9 +131,12 @@
     },
     "featured_collection_mChzwm": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Mais vendidos",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "collection": "sugestoes-eros-hormone-plus",
         "products_to_show": 4,
         "image_ratio": "portrait",
@@ -513,50 +517,6 @@
         "include_margins": true
       }
     },
-    "image_with_text_Y4rnQC": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_AGFcbw": {
-          "type": "heading",
-          "settings": {
-            "storytitle": "THE BODY",
-            "heading_size": "h0"
-          }
-        },
-        "caption_gNweiw": {
-          "type": "caption",
-          "settings": {
-            "storysubtitle": "<h4>Seu Companheiro na Jornada de Emagrecimento<\/h4><p>The Body é um aliado completo para sua saúde. Desenvolvido para queimar gordura, controlar o apetite, eliminar compulsão por doces, acelerar o metabolismo, remover gordura do fígado, aliviar inflamações intestinais e reduzir a retenção de líquidos.<br\/><br\/>The Body é a fórmula avançada que cuida de você. Independentemente da sua idade ou sexo, ele está aqui para ajudá-lo a alcançar seus objetivos de emagrecimento e viver com mais saúde e confiança. Sua jornada para a melhor versão de si mesmo começa com The Body<\/p>"
-          }
-        },
-        "button_8H3GLm": {
-          "type": "button",
-          "settings": {
-            "btntxt": "Confira agora",
-            "link": "",
-            "button_style": "button--secondary",
-            "button_size": "bs_large"
-          }
-        }
-      },
-      "block_order": [
-        "heading_AGFcbw",
-        "caption_gNweiw",
-        "button_8H3GLm"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/05_9ee20ac1-b975-4618-8923-3983124d21a8.jpg",
-        "image_width": "50%",
-        "image_position": "imgpleft",
-        "imgalign": "imgalignmiddle",
-        "image_height": "adapt",
-        "Horizontal_alignment": "center",
-        "mobile_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
     "multicolumn_YpJJYn": {
       "type": "multicolumn",
       "blocks": {
@@ -714,7 +674,6 @@
     "multicolumn_pW6jXA",
     "multicolumn_prC6pk",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a",
-    "image_with_text_Y4rnQC",
     "multicolumn_YpJJYn",
     "multicolumn_kXdGpL",
     "product-recommendations"
