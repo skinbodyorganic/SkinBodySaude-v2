@@ -31,7 +31,7 @@
         "caption_jckW3i"
       ],
       "custom_css": [
-        ".wbimgtxt_right {display: flex; flex-direction: column; padding: 2% 10% 10% 2%; text-align: left;}",
+        ".wbimgtxt_right {display: flex; flex-direction: column; padding: 2% 5% % 2%; text-align: left;}",
         "p,strong {line-height: 1.7rem;}",
         "strong {font-size: 1.2rem;}",
         ".imgalignmiddle {background: #000;}",
