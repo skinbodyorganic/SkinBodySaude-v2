@@ -39,7 +39,7 @@
         ".wbimg_txt_flex {width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}",
         ".wbimg_txtimg img {width: 100%;}",
         ".image-with-text__media {background: #000;}",
-        "@media screen and (max-width: 767px) {.wbimgtxt_right {padding: 0 10% 10%; } p,strong {line-height: 1.2rem;} strong {font-size: 0.875rem; }}"
+        "@media screen and (max-width: 767px) {.wbimgtxt_right {padding: 0 10% 10%; } p, strong {line-height: 1.2rem; } strong {font-size: 0.875rem; }}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -133,7 +133,7 @@
     "featured_collection_mChzwm": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".price {font-size: 1rem;}"
       ],
       "settings": {
         "title": "Mais vendidos",
