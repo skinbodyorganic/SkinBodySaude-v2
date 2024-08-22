@@ -133,7 +133,8 @@
     "featured_collection_mChzwm": {
       "type": "featured-collection",
       "custom_css": [
-        ".price {font-size: 1rem;}"
+        ".price {font-size: 1rem;}",
+        ".badge {background: #ffdd19;}"
       ],
       "settings": {
         "title": "Mais vendidos",
