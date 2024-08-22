@@ -786,7 +786,7 @@
   "platform_customizations": {
     "custom_css": [
       ".left-col {display: none;}",
-      ".product__info-container {border: solid 1px; border-radius: 2%; padding: 10%;}",
+      ".product__info-container {border: solid 1px; border-radius: 2%; padding: 0;}",
       ".cart__checkout-button {font-weight: bold; border-color: #000; border: solid 1px; color: #fff; background-color: #1fcb5a; text-transform: uppercase;}"
     ]
   }
