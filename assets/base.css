@@ -5815,7 +5815,6 @@ button#checkout { display:none !important; }
   }
 
   .personal-style-right-eros h2 {
-    font-weight: 500;
     color: #fff;
   }
 .personal-style-right-eros >p strong {
@@ -5824,6 +5823,12 @@ button#checkout { display:none !important; }
 .personal-style-right-eros p  {
 color: #E0E0E0 ;
 }
+@media screen and (max-width: 767px) {
+    #shopify-section-template--23291456946464__image_with_text_fWftgP .wbimgtxt_right  {
+        padding: 0 10% 10%;
+    }
+}
+
   /* input[type="radio"]:checked ~ .variante-image-produto {
     background-color: #333;
     color: #FFF;
