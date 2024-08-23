@@ -463,7 +463,7 @@
         "button_LACaCW"
       ],
       "custom_css": [
-        ".rich-text__buttons a {background-color: #000; color: #fff; text-transform: uppercase; font-weight: bold; padding: 1rem; width: 35%;}"
+        ".rich-text__buttons a {background-color: #0150b6; color: #fff; text-transform: uppercase; font-weight: bold; padding: 1rem; width: 35%;}"
       ],
       "settings": {
         "desktop_content_position": "center",
