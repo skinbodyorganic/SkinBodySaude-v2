@@ -549,6 +549,9 @@
         "question_TjhAgL",
         "question_cMAeAj"
       ],
+      "custom_css": [
+        ".wdevfaq {margin: 0 15px;}"
+      ],
       "settings": {
         "title": "Perguntas frequentes",
         "padding_top": 0,
