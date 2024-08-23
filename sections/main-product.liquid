@@ -1003,13 +1003,13 @@
     </div>
   </div>
 
-  {%- if section.settings.enable_desctab -%}
+  {% comment %} {%- if section.settings.enable_desctab -%}
     <div class="wbproducttab spaced-section quick-add-hidden row">
       <div class="rating-review col-12">
         <div id="shopify-product-reviews" data-id="{{ product.id }}">{{ product.metafields.spr.reviews }}</div>
       </div>
     </div>
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div
