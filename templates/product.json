@@ -519,6 +519,42 @@
         "include_margins": true
       }
     },
+    "main_faq_VXBqVB": {
+      "type": "main-faq",
+      "blocks": {
+        "question_kqACjQ": {
+          "type": "question",
+          "settings": {
+            "title": "Como o Eros melhora a vida sexual?",
+            "text": "<p>Eros vai além do estimulante sexual. Ele é um nootrópico e polivitamínico desenvolvido para ajudar homens e mulheres a redescobrirem o prazer, o desejo e o conforto sexual, além de reduzir os níveis de estresse e sintomas relacionados à perda da libido.<\/p>"
+          }
+        },
+        "question_TjhAgL": {
+          "type": "question",
+          "settings": {
+            "title": "Como o Eros aumenta a testosterona?",
+            "text": "<p>Eros restabelece os níveis hormonais, aumentando a testosterona, proporcionando ganho de massa muscular, aumento do desejo sexual, a produção de esperma e fertilidade masculina.<br\/>Regula a distribuição de gordura corporal.<\/p>"
+          }
+        },
+        "question_cMAeAj": {
+          "type": "question",
+          "settings": {
+            "title": "Como o Eros combate a ansiedade sexual?",
+            "text": "<p>Eros elimina ansiedade e estresse sexual: preocupações psicológicas que afetam o desempenho sexual.<br\/>É nesse cenário que o nosso suplemento se destaca como uma solução eficaz para:<br\/>Homens que têm dificuldade em obter ou manter uma ereção ou que ejaculam mais rapidamente do que o desejado.<br\/>Homens com baixa libido: diminuição do desejo sexual ou com dificuldade em ejacular ou atingir o orgasmo.<br\/>Eros aborda diretamente desequilíbrios hormonais que afetam a função sexual devido aos níveis de testosterona estarem baixos.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_kqACjQ",
+        "question_TjhAgL",
+        "question_cMAeAj"
+      ],
+      "settings": {
+        "title": "Descubra o Poder de Eros",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_YpJJYn": {
       "type": "multicolumn",
       "blocks": {
@@ -555,6 +591,7 @@
         "column_HenDfA",
         "column_QQr8RN"
       ],
+      "disabled": true,
       "settings": {
         "title": "O QUE É O EROS",
         "image_width": "full",
@@ -676,6 +713,7 @@
     "multicolumn_pW6jXA",
     "multicolumn_prC6pk",
     "alireviews-section-80af2c8c-6740-493a-bfc1-684e0302023a",
+    "main_faq_VXBqVB",
     "multicolumn_YpJJYn",
     "multicolumn_kXdGpL",
     "product-recommendations"
