@@ -63,11 +63,6 @@
             "heading_size": "h0"
           }
         },
-        "75951c32-13e5-42b3-8df4-bb2cace9d37a": {
-          "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-star-rating\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -107,7 +102,6 @@
       },
       "block_order": [
         "title",
-        "75951c32-13e5-42b3-8df4-bb2cace9d37a",
         "description",
         "text_ka7TPj",
         "price",
@@ -134,7 +128,11 @@
       "type": "featured-collection",
       "custom_css": [
         ".price {font-size: 1rem;}",
-        ".badge {background: #ffdd19; border-radius: 5px;}"
+        ".badge {background: #ffdd19; border-radius: 5px;}",
+        ".button.button--primary span {font-size: 0.6rem;}",
+        ".button {padding: 0.5rem 0.08em; width: 100%;}",
+        ".card--card .quick-add {margin: 0;}",
+        ".card__content {padding: 10px;}"
       ],
       "settings": {
         "title": "Mais vendidos",
@@ -146,7 +144,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "show_variants": false,
         "picker_type": "button",
         "show_colorswatch": true,
@@ -502,7 +500,7 @@
       "type": "apps",
       "blocks": {
         "6962db5e-ca15-4f0d-ac40-73ee3bf26b6a": {
-          "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "type": "shopify:\/\/apps\/kudosi-ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
             "product": "eros-blend-energy-and-libid-1200mg",
             "name": "Review Box",
