@@ -5845,4 +5845,19 @@ color: #E0E0E0 ;
     background-color: #333;
     color: #FFF;
   } */
- 
+.container {
+    background: rgba(var(--color-foreground), 0.03);
+    max-width: 100%;
+    padding: 0;
+}
+ .header-wrapper .wbmenuup {
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
+    
+ }
+ .container .breadcrumb {
+    margin: 0;
+    padding: 6px;
+    width: 100%;
+}
+
+
