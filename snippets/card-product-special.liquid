@@ -220,7 +220,7 @@
                     {% endif %}
                 {% endfor %}
                 {% if product_sale_tile %} 
-                    {% render 'wbcountdown', title: {{product_sale_title}}, end_date: {{pro_date}}  %}
+                    {% render 'wbcountdown', title: product_sale_title, end_date: pro_date %}
                 {% endif %}
             {% endif %}
                 
@@ -229,3 +229,14 @@
     </div>
     </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'wbcountdown', title: {{product_sale_title}}, end_date: {{pro_date}}
+    \ %}"
+  to: "{% render 'wbcountdown', title: product_sale_title, end_date: pro_date %}"
+  position: 18183..18256
+{% endcomment %}
